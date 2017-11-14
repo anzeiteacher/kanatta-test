@@ -1,0 +1,250 @@
+2017-04-05 09:26:55 Debug: 31 is empty
+2017-04-05 09:26:55 Debug: fail to get_old_data_of_pj()
+2017-04-05 09:27:36 Debug: success to chk_mail_of_old_users(OldUser)
+2017-04-05 09:29:38 Debug: success to old_user_to_new_user(OldUser)
+2017-04-05 09:29:55 Debug: success to old_user_to_new_user(OldAthlete)
+2017-04-05 09:32:19 Debug: fail set_user_id_to_projects()
+2017-04-05 09:32:19 Debug: Array
+(
+    [0] => pj is empty. prj_id is 1
+    [1] => pj is empty. prj_id is 3
+    [2] => pj is empty. prj_id is 4
+    [3] => pj is empty. prj_id is 6
+    [4] => pj is empty. prj_id is 8
+    [5] => pj is empty. prj_id is 9
+    [6] => pj is empty. prj_id is 10
+    [7] => pj is empty. prj_id is 12
+    [8] => pj is empty. prj_id is 13
+    [9] => pj is empty. prj_id is 16
+    [10] => pj is empty. prj_id is 18
+    [11] => pj is empty. prj_id is 19
+    [12] => pj is empty. prj_id is 23
+    [13] => pj is empty. prj_id is 24
+    [14] => pj is empty. prj_id is 26
+    [15] => pj is empty. prj_id is 28
+    [16] => pj is empty. prj_id is 30
+    [17] => pj is empty. prj_id is 32
+    [18] => pj is empty. prj_id is 33
+    [19] => pj is empty. prj_id is 34
+    [20] => pj is empty. prj_id is 35
+)
+
+2017-04-05 09:32:24 Debug: fail set_user_id_to_projects_from_page()
+2017-04-05 09:32:24 Debug: Array
+(
+    [0] => pj is empty. page_id is 1
+    [1] => pj is empty. page_id is 2
+    [2] => pj is empty. page_id is 6
+    [3] => pj is empty. page_id is 7
+    [4] => pj is empty. page_id is 10
+    [5] => pj is empty. page_id is 13
+    [6] => pj is empty. page_id is 14
+    [7] => pj is empty. page_id is 17
+    [8] => pj is empty. page_id is 18
+    [9] => pj is empty. page_id is 19
+    [10] => pj is empty. page_id is 22
+    [11] => pj is empty. page_id is 24
+    [12] => pj is empty. page_id is 27
+    [13] => pj is empty. page_id is 29
+    [14] => pj is empty. page_id is 30
+    [15] => pj is empty. page_id is 31
+    [16] => pj is empty. page_id is 32
+    [17] => pj is empty. page_id is 33
+    [18] => pj is empty. page_id is 35
+    [19] => pj is empty. page_id is 36
+    [20] => pj is empty. page_id is 37
+    [21] => pj is empty. page_id is 38
+    [22] => pj is empty. page_id is 39
+    [23] => pj is empty. page_id is 40
+)
+
+2017-04-05 09:33:57 Debug: success to get_old_id_of_backing_levels()
+2017-04-05 09:42:36 Debug: success to old_order_to_backed_projects()
+2017-04-05 10:20:28 Debug: 31 is empty
+2017-04-05 10:20:28 Debug: fail to get_old_data_of_pj()
+2017-04-05 10:20:33 Debug: success to chk_mail_of_old_users(OldUser)
+2017-04-05 10:20:36 Debug: success to chk_mail_of_old_users(OldAthlete)
+2017-04-05 10:20:46 Debug: success to old_user_to_new_user(OldUser)
+2017-04-05 10:21:07 Debug: success to old_user_to_new_user(OldAthlete)
+2017-04-05 10:21:26 Debug: fail set_user_id_to_projects()
+2017-04-05 10:21:26 Debug: Array
+(
+    [0] => pj is empty. prj_id is 1
+    [1] => pj is empty. prj_id is 3
+    [2] => pj is empty. prj_id is 4
+    [3] => pj is empty. prj_id is 6
+    [4] => pj is empty. prj_id is 8
+    [5] => pj is empty. prj_id is 9
+    [6] => pj is empty. prj_id is 10
+    [7] => pj is empty. prj_id is 12
+    [8] => pj is empty. prj_id is 13
+    [9] => pj is empty. prj_id is 16
+    [10] => pj is empty. prj_id is 18
+    [11] => pj is empty. prj_id is 19
+    [12] => pj is empty. prj_id is 23
+    [13] => pj is empty. prj_id is 24
+    [14] => pj is empty. prj_id is 26
+    [15] => pj is empty. prj_id is 28
+    [16] => pj is empty. prj_id is 30
+    [17] => pj is empty. prj_id is 32
+    [18] => pj is empty. prj_id is 33
+    [19] => pj is empty. prj_id is 34
+    [20] => pj is empty. prj_id is 35
+)
+
+2017-04-05 10:21:31 Debug: fail set_user_id_to_projects_from_page()
+2017-04-05 10:21:31 Debug: Array
+(
+    [0] => pj is empty. page_id is 1
+    [1] => pj is empty. page_id is 2
+    [2] => pj is empty. page_id is 6
+    [3] => pj is empty. page_id is 7
+    [4] => pj is empty. page_id is 10
+    [5] => pj is empty. page_id is 13
+    [6] => pj is empty. page_id is 14
+    [7] => pj is empty. page_id is 17
+    [8] => pj is empty. page_id is 18
+    [9] => pj is empty. page_id is 19
+    [10] => pj is empty. page_id is 22
+    [11] => pj is empty. page_id is 24
+    [12] => pj is empty. page_id is 27
+    [13] => pj is empty. page_id is 29
+    [14] => pj is empty. page_id is 30
+    [15] => pj is empty. page_id is 31
+    [16] => pj is empty. page_id is 32
+    [17] => pj is empty. page_id is 33
+    [18] => pj is empty. page_id is 35
+    [19] => pj is empty. page_id is 36
+    [20] => pj is empty. page_id is 37
+    [21] => pj is empty. page_id is 38
+    [22] => pj is empty. page_id is 39
+    [23] => pj is empty. page_id is 40
+    [24] => pj is empty. page_id is 41
+    [25] => pj is empty. page_id is 42
+)
+
+2017-04-05 10:21:48 Debug: success to get_old_id_of_backing_levels()
+2017-04-05 10:21:53 Debug: success to project_money_to_backing_levels()
+2017-04-05 10:21:56 Debug: success to page_money_to_backing_levels()
+2017-04-05 10:22:02 Debug: success to old_order_to_backed_projects()
+2017-04-05 11:20:33 Debug: 1 is empty
+2017-04-05 11:20:33 Debug: 2 is empty
+2017-04-05 11:20:33 Debug: 3 is empty
+2017-04-05 11:20:33 Debug: 4 is empty
+2017-04-05 11:20:33 Debug: 5 is empty
+2017-04-05 11:20:33 Debug: 6 is empty
+2017-04-05 11:20:33 Debug: 7 is empty
+2017-04-05 11:20:33 Debug: 8 is empty
+2017-04-05 11:20:33 Debug: 9 is empty
+2017-04-05 11:20:33 Debug: 10 is empty
+2017-04-05 11:20:33 Debug: 11 is empty
+2017-04-05 11:20:33 Debug: 12 is empty
+2017-04-05 11:20:33 Debug: 13 is empty
+2017-04-05 11:20:33 Debug: 14 is empty
+2017-04-05 11:20:33 Debug: 15 is empty
+2017-04-05 11:20:34 Debug: 17 is empty
+2017-04-05 11:20:34 Debug: 18 is empty
+2017-04-05 11:20:34 Debug: 21 is empty
+2017-04-05 11:20:34 Debug: 22 is empty
+2017-04-05 11:20:34 Debug: 23 is empty
+2017-04-05 11:20:34 Debug: 25 is empty
+2017-04-05 11:20:34 Debug: 26 is empty
+2017-04-05 11:20:34 Debug: 28 is empty
+2017-04-05 11:20:34 Debug: 30 is empty
+2017-04-05 11:20:34 Debug: 39 is empty
+2017-04-05 11:20:34 Debug: 40 is empty
+2017-04-05 11:20:34 Debug: 42 is empty
+2017-04-05 11:20:34 Debug: 43 is empty
+2017-04-05 11:20:34 Debug: 44 is empty
+2017-04-05 11:20:34 Debug: fail to get_old_data_of_pj()
+2017-04-05 11:21:04 Debug: success to old_user_to_new_user(OldUser)
+2017-04-05 11:21:29 Debug: success to old_user_to_new_user(OldAthlete)
+2017-04-05 11:22:39 Debug: fail set_user_id_to_projects()
+2017-04-05 11:22:39 Debug: Array
+(
+    [0] => pj is empty. prj_id is 1
+    [1] => pj is empty. prj_id is 3
+    [2] => pj is empty. prj_id is 4
+    [3] => pj is empty. prj_id is 6
+    [4] => pj is empty. prj_id is 8
+    [5] => pj is empty. prj_id is 9
+    [6] => pj is empty. prj_id is 10
+    [7] => pj is empty. prj_id is 12
+    [8] => pj is empty. prj_id is 13
+    [9] => pj is empty. prj_id is 16
+    [10] => pj is empty. prj_id is 18
+    [11] => pj is empty. prj_id is 19
+    [12] => pj is empty. prj_id is 23
+    [13] => pj is empty. prj_id is 24
+    [14] => pj is empty. prj_id is 26
+    [15] => pj is empty. prj_id is 28
+    [16] => pj is empty. prj_id is 30
+    [17] => pj is empty. prj_id is 33
+    [18] => pj is empty. prj_id is 34
+    [19] => pj is empty. prj_id is 35
+)
+
+2017-04-05 11:22:46 Debug: fail set_user_id_to_projects_from_page()
+2017-04-05 11:22:46 Debug: Array
+(
+    [0] => pj is empty. page_id is 1
+    [1] => pj is empty. page_id is 2
+    [2] => pj is empty. page_id is 6
+    [3] => pj is empty. page_id is 7
+    [4] => pj is empty. page_id is 10
+    [5] => pj is empty. page_id is 13
+    [6] => pj is empty. page_id is 14
+    [7] => pj is empty. page_id is 17
+    [8] => pj is empty. page_id is 18
+    [9] => pj is empty. page_id is 19
+    [10] => pj is empty. page_id is 22
+    [11] => pj is empty. page_id is 24
+    [12] => pj is empty. page_id is 27
+    [13] => pj is empty. page_id is 29
+    [14] => pj is empty. page_id is 30
+    [15] => pj is empty. page_id is 31
+    [16] => pj is empty. page_id is 32
+    [17] => pj is empty. page_id is 33
+    [18] => pj is empty. page_id is 35
+    [19] => pj is empty. page_id is 36
+    [20] => pj is empty. page_id is 37
+    [21] => pj is empty. page_id is 38
+    [22] => pj is empty. page_id is 40
+    [23] => pj is empty. page_id is 41
+    [24] => pj is empty. page_id is 42
+)
+
+2017-04-05 11:23:05 Debug: success to get_old_id_of_backing_levels()
+2017-04-05 11:23:30 Debug: success to project_money_to_backing_levels()
+2017-04-05 11:23:34 Debug: success to page_money_to_backing_levels()
+2017-04-05 11:23:40 Debug: success to old_order_to_backed_projects()
+2017-05-21 11:34:47 Debug: Notice (8): Undefined variable: setting in [D:\xampp7\htdocs\crowdf\app\View\Layouts\error.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+include - APP\View\Layouts\error.ctp, line 7
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2017-05-21 11:34:47 Debug: Notice (8): Undefined variable: setting in [D:\xampp7\htdocs\crowdf\app\View\Layouts\error.ctp, line 21]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+include - APP\View\Layouts\error.ctp, line 21
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
