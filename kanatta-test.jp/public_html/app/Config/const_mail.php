@@ -1,0 +1,20 @@
+<?php
+define('CONTACT_SUBJECT', 'お問い合わせありがとうございます');
+define('CONSULT_SUBJECT', '相談役へのご依頼を承りました');
+define('CONFIRM_MAIL_ADDRESS_SUBJECT', 'メールアドレス登録のご確認');
+define('FORGOT_PASS_SUBJECT', 'パスワードの再設定');
+define('RESET_PASS_COMPLETE_SUBJECT', 'パスワードの再設定が完了しました');
+define('RESET_LOCK_SUBJECT', 'アカウントがロックされています');
+define('REGISTERED_SUBJECT', 'ユーザ登録が完了しました！');
+define('BACK_COMPLETE_BACKER_SUBJECT', 'ありがとうございます！支援が完了しました！');
+define('BACK_COMPLETE_OWNER_SUBJECT', '支援がありました！');
+define('CANCEL_COMPLETE_SUBJECT', '支援したプロジェクトが終了しました');
+define('EXEC_COMPLETE_SUBJECT', '支援したプロジェクトが成功しました！');
+define('PROJECT_FIN_SUBJECT', 'プロジェクトが終了しました');
+define('MESSAGED_SUBJECT', 'メッセージが届きました');
+define('PJ_CREATE_SUBJECT', 'プロジェクト作成のお申し込みありがとうございます');
+define('CREATE_REPORT_SUBJECT', '活動報告が投稿されました');
+define('SUCCESS_MONTHLY_CHARGE_SUBJECT', '月額課金が完了しました');
+define('FAIL_MONTHLY_CHARGE_OWNER_SUBJECT', '月額課金に失敗しました');
+define('FAIL_MONTHLY_CHARGE_BACKER_SUBJECT', '月額課金に失敗しました');
+define('CANCEL_MONTHLY_SUBJECT', '月額課金プロジェクトのキャンセルが発生しました');

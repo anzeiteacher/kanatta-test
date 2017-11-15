@@ -1,0 +1,10 @@
+{
+  "name": "FundeeScratch",
+  "require": {
+    "facebook/graph-sdk" : "~5.0",
+    "phpunit/phpunit" : "3.7.38"
+  },
+  "config": {
+    "vendor-dir": "app/Vendor/"
+  }
+}
