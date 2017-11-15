@@ -1,0 +1,341 @@
+*{
+	margin0px;
+	padding:0px;
+}
+html{
+	height: 100%;
+}
+
+body,p,li,dt,dd,th,td {
+	font-size:12px;
+    font-family: "ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	color:#464646;
+	line-height:180%;
+	height: 100%;
+}
+html , body{
+	height: 100%;
+}
+h1,h2,h3,h4,h5 {
+	clear:both;
+}
+h2{
+	font-size: 24px;
+    margin: 15px 0px;
+}
+
+
+/* =link
+---------------------------------------- */
+a:link,
+a:visited,
+a:active {
+	color: #dc5d78;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a:active,
+a:focus {
+	outline:none;
+}
+
+
+/************* ヘッダー start *************/
+
+#head{
+    padding: 75px 0 0 0;
+}
+
+#navi{
+    padding: 0 20px 0px 20px;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.88);
+}
+#navi h1{
+	display: inline-block;
+    vertical-align: middle;
+    margin: 22px 0px;
+}
+#navi .menu_tab ul li img{
+    height: 20px;
+    margin: auto;
+}
+#navi ul{
+    display: inline-block;
+}
+#navi ul li{
+    display: inline-block;
+    text-align: center;
+	margin-right: 10px;
+    margin-top: -5px;
+}
+#navi ul li.li00{
+		display: none;
+}
+#navi ul li.li04-2{
+		display: none;
+}
+#navi ul li a{
+	text-decoration: none;
+    font-family: "ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#navi .menu_tab{
+	display: inline-block;
+    right: 45px;
+    top: 30px;
+    position: absolute;
+}
+.logo{
+    width: 150px;
+    display: block;
+}
+
+/************* ヘッダー end *************/
+
+
+/************* フッター start *************/
+#footer{
+    margin-top: 24px;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer .footer-content{
+    	padding-bottom: 50px;
+	margin:0 auto;
+	width: 100%;
+	z-index:39;
+	position:relative;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#footer .footer-content .foot_p01{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#footer .footer-content .foot_p01 img{
+   margin: 10px 0;
+}
+#footer .footer-content .foot_p01 span{
+	font-weight: bold;
+}
+#footer .ftr_nav{
+}
+#footer .ftr_nav img{
+    width: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+#footer .footer-content .foot_box.clearfix{
+    width: 85%;
+    margin: auto;
+}
+#footer .ftr_nav .container {
+    clear: both;
+    margin: 10px 0 0 0;
+    display: block;
+}
+#footer .ftr_nav .ftr_nav_1{
+    width: 20%;
+    display: table-cell;
+}
+#footer .ftr_nav .tit{
+    font-weight: bold;
+}
+
+.copyright{
+    padding: 40px 0 0px 0px;
+    color: #6a6a6a;
+    font: 10px Verdana;
+    display: block;
+    text-align: center;
+}
+
+/************* フッター end *************/
+
+
+/************* メイン start *************/
+
+#wrapper{
+    margin: 0 auto;
+    width: 85%;
+    position: relative;
+}
+
+#main{
+	margin:0;
+	float:left;
+	width:790px;
+}
+.toppage .top_box{
+    position: relative;
+	background-image: url(../../img/top/top-img.jpg);
+}
+.toppage .top_box .top_box_content h1{
+    margin: 0px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    font-size: 48px;
+    width: 45vw;
+    text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
+    color: #dc5d78;
+}
+.top-img-area h1 img{
+    width: 300px;
+}
+.top-img-area{
+	height: 500px;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-top: -15px;
+    positon:relative;
+}
+#top .top-img-area .top-img{
+    width: auto;
+    height: 500px;
+    position: relative;
+
+	background-size:cover;
+
+    background-image: url(../img/top/top-img.jpg);
+	background-position-x: center;
+    background-position-y: initial;
+
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	/* 背景画像が読み込まれる前に表示される背景のカラー */
+	background-color: rgba(255,255,255,0);
+}
+#about .top-img-area .top-img{
+    display: block;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+
+    background: url(../img/about/bg_about_top1920.jpg) no-repeat center center fixed;
+    background-position: 0px -200px;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+	background-attachment: fixed;
+
+	/* 背景画像が読み込まれる前に表示される背景のカラー */
+	background-color: rgba(255,255,255,0);
+}
+.colorfilter-base {
+    background-color: #fff;
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    position: absolute;
+}
+.colorfilter-image {
+/*    opacity: 0.5;  */
+/*    display: block;*/
+}
+
+/************* メイン end *************/
+
+/************* トップページ start *************/
+
+body#top #contents {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0 30px;
+}
+
+
+/************* トップページ end *************/
+
+
+/************* aboutページ start *************/
+
+body#about {
+	background:url(../img/about/bg_about.jpg) no-repeat center 0;
+	background-position: 0% 100%;
+    background-attachment: fixed;
+}
+
+body#about #wrapper{
+	background:url(../img/about/bg_abt_main.png) no-repeat center 0;
+}
+
+body#about #main{
+	min-height:2695px;
+}
+
+#about section{
+	padding: 12px 8px;
+	width: 95%;
+    margin: 35px auto;
+    background-color: rgba(255, 254, 254, 0.82);
+    box-shadow: rgba(203, 203, 203, 0.5) 0px 0px 3px 3px;
+    -webkit-box-shadow: rgba(203, 203, 203, 0.5) 0px 0px 3px 3px;
+    display: inline-block;
+}
+
+#about .left{
+	width: 50%;
+    display: inline-block;
+}
+#about .right{
+	width: 50%;
+    display: inline-block;
+}
+#about .right img{
+    margin: auto;
+}
+#about .split{
+    display: inherit;
+    margin: 10px 0;
+}
+#about .split .left img, #about .split .right img{
+    width: 90%;
+}
+#about .about-img img{
+    margin: auto;
+    width: 100%;
+    max-width: 650px;
+}
+#about p.lets-try{
+	text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+#about div.lets-try-btn{
+    margin: 30px;
+    text-align: center;
+}
+#about .lets-try-btn .lets-try1{
+	background-color: #f9b725;
+    border-radius: 30px;
+    padding: 15px 26px;
+    color: #fff;
+    font-weight: bold;
+}
+#about .lets-try-btn .lets-try2{
+    background-color: #afe5ff;
+    border-radius: 30px;
+    padding: 15px 26px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 50px;
+}
+/************* aboutページ end *************/
+

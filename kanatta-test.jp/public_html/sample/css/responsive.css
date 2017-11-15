@@ -1,0 +1,57 @@
+
+
+/**** 600より小さい ****/
+@media screen and (max-width: 600px){
+}
+
+/**** 800 - 1000px ****/
+@media screen and (min-width: 801px) and (max-width: 1000px){
+	.top-img-area h1{
+		left: auto;
+	    right: -17%;
+	}
+	.top-img-area .top-img{
+	    background: url(../img/about/bg_about_top1000.jpg) no-repeat center 0;
+	    background-position: 0px -20px;
+	    background-attachment: fixed
+	}
+}
+
+/**** 600 - 800px ****/
+@media screen and (min-width: 601px) and (max-width: 800px){
+	body, p, li, dt, dd, th, td {
+	    font-size: 14px;
+	}
+	.top-img-area h1{
+		left: auto;
+	    right: -10%;
+	}
+	.top-img-area .top-img{
+	    background: url(../img/about/bg_about_top1000.jpg) no-repeat center 0;
+	    background-position: -150px -20px;
+	    background-attachment: fixed
+	}
+
+}
+
+/**** 400 - 600px ****/
+@media screen and (min-width: 401px) and (max-width: 600px){
+	.top-img-area h1{
+		left: auto;
+	    right: 24%;
+	}
+	.top-img-area .top-img{
+	    background: url(../img/about/bg_about_top600.jpg) no-repeat center 0;
+	    background-position: 0px -2px;
+		background-attachment: fixed
+	}
+}
+
+/**** 400より小さい ****/
+@media screen and (max-width:400px){
+}
+
+/************* ヘッダー start *************/
+
+/************* ヘッダー end *************/
+

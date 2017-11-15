@@ -1,0 +1,20 @@
+[class*="img-icon-"]{
+	width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+#menu_bar .menu .img-icon-search{
+	background-image: url(../../img/common/search.png);
+}
+#menu_bar .menu .img-icon-file-new{
+	background-image: url(../../img/common/start.png);
+}
+#menu_bar .menu .img-icon-question{
+	background-image: url(../../img/common/question.png);
+}
+#menu_bar .menu_right .img-icon-login{
+	background-image: url(../../img/common/login.png);
+}
