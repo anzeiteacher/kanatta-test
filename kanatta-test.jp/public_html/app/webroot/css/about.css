@@ -1,0 +1,115 @@
+.aboutpage .about_box {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    height: 58vw;
+    background-size: contain;
+    background-image: url(../img/top/top-img.png);
+    background-position-x: center;
+    background-position-y: initial;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0);
+}
+
+.aboutpage .about_box:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.aboutpage .about_box-pjt{
+	height: 100%;
+    overflow: hidden;
+}
+.aboutpage .about-start{
+    height: 170px;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+.aboutpage h3{
+    padding-bottom: 30px;
+}
+.aboutpage .about_content{
+    margin-top: 0px;
+    padding-bottom: 30px;
+    padding-top: 35px;
+    max-width: 1200px;
+    margin: auto;
+}
+.pc-display{
+	position: absolute;
+    width: 100%;
+    left: 4.7%;
+    margin-top: 10%;
+}
+.pc-display .imgholder{
+    width: 50%;
+}
+.pc-display .imgholder img{
+    width: 25vw;
+    margin-left: 25%;
+}
+
+.colorfilter{
+    opacity: 0.5;    /* カラーフィルタ効果の度合いを指定(※) */
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+	.aboutpage .about_box{
+		max-width: 750px;
+        height: 130vw;
+		background-image: url(../img/top/top-img-sp.png);
+        margin-top: 27px;
+	}
+	.aboutpage .about_box .top_box-pjt{
+	    padding-top: 8%;
+	}
+	.pc-display{
+	    left: 7.8%;
+	}
+	.pc-display .imgholder{
+	    width: 85%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.aboutpage .about_box{
+		height: 150vw;
+	}
+}
+
+    /* mangaviewer css */
+    #viewer-area{
+        width: 600px;
+        margin: auto;
+    }
+    #viewer .sheet{
+        width:100%;
+        text-align:center;
+        height: 470px;
+    }
+    #viewer img{
+        width:300px;
+        cursor:pointer;
+    }
+
+    #viewer #page-link{
+        clear:both;
+        text-align:center;
+    }
+    #viewer #page-link .btn.active{
+        border: inset 2px #086A87;
+        background-color:#2E9AFE;
+    }
+    /* mangaviewer css */
+
+.about_content .left{
+    text-align: center;
+}

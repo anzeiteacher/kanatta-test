@@ -1,0 +1,654 @@
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+h3.pickup {
+    padding: 20px 0 10px 0;
+}
+
+div.top_content h3 {
+    padding: 30px 0 10px 0;
+}
+
+.top_box {
+    padding: 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#contents {
+    padding-bottom: 66px;
+}
+
+/*************** top_box  *****************/
+body #wrap{
+    background-image: url(../img/common/background-pic.png);
+    overflow: hidden;
+}
+.wrap-s{
+	max-width: 1200px;
+    margin: auto;
+}
+.toppage .top_box {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+
+    height: 58vw;
+
+	background-size:contain;
+
+    background-image: url(../img/top/top-img.png);
+	background-position-x: center;
+    background-position-y: initial;
+
+	background-attachment: initial;
+	background-repeat: no-repeat;
+
+	/* 背景画像が読み込まれる前に表示される背景のカラー */
+	background-color: rgba(255,255,255,0);
+}
+
+.toppage .top_box:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.toppage .top_box .top_box-pjt{
+	height: 100%;
+    padding-top: 7%;
+    overflow: hidden;
+}
+.pickup_project_for_top{
+	position: absolute;
+    width: 100%;
+    left: 4.7%;
+}
+.pickup_project_for_top .imgholder{
+    width: 50%;
+}
+.pickup_project_for_top .imgholder h2.title{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.38);
+    padding: 15px;
+    overflow: hidden;
+    font-size: 2vw;
+    bottom: -9%;
+}
+.pickup_project_for_top .imgholder h2.title a{
+    color: #fff;
+    font-weight: 100;
+}
+.pickup_project_for_top .right{
+	position: absolute;
+    right: 10%;
+    width: 30%;
+    top: 63%;
+    background-color: #fff;
+    padding: 20px;
+    border: solid 6px #cf9574;
+}
+
+.top-kanako{
+    position: absolute;
+    top: -90px;
+    left: -57px;
+}
+.top-kanako img{
+    width: 90px;
+}
+
+/* PC画面上に表示されるテキスト */
+#fig-top_box{
+  position: relative;
+  overflow: hidden;
+}
+#fig-top_box figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0;
+}
+#fig-top_box figcaption h3,
+#fig-top_box figcaption p {
+  position: absolute;
+  left: -100%;
+  width: 90%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+#fig-top_box figcaption h3 {
+  top: 20%;
+}
+#fig-top_box figcaption a {
+    color: #fff;
+}
+#fig-top_box figcaption p {
+    top: 50%;
+    color: #fff;
+}
+#fig-top_box:hover figcaption {
+  opacity: 1;
+}
+#fig-top_box:hover figcaption h3,
+#fig-top_box:hover figcaption p {
+  left: 20px;
+}
+#fig-top_box:hover figcaption h3 {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+#fig-top_box:hover figcaption p {
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
+}
+#fig-top_box figcaption a:hover,
+#fig-top_box figcaption a:focus{
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* スマホ版 */
+#fig-top_box_sm figcaption .grid_footer{
+	color: #fff;
+}
+#fig-top_box_sm figcaption .grid_footer .grid-txt1{
+	display: inline-block;
+    margin-left: 3%;
+}
+#fig-top_box_sm figcaption .grid_footer .grid-txt2{
+    font-size: 4vw;
+}
+#fig-top_box_sm{
+  position: relative;
+  overflow: hidden;
+}
+#fig-top_box_sm figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background: rgba(0,0,0,.6);
+}
+#fig-top_box_sm figcaption h3,
+#fig-top_box_sm figcaption p {
+  position: absolute;
+  width: 100%;
+  padding: 2% 2%;
+}
+#fig-top_box_sm figcaption h3 {
+  top: 0;
+  text-align: left;
+  font-size: 3vw;
+}
+#fig-top_box_sm figcaption a {
+    color: #fff;
+}
+#fig-top_box_sm figcaption p {
+    top: 50%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+#fig-top_box_sm:hover figcaption {
+  opacity: 1;
+}
+#fig-top_box_sm:hover figcaption h3,
+#fig-top_box_sm:hover figcaption p {
+  left: 20px;
+}
+#fig-top_box_sm:hover figcaption h3 {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+#fig-top_box_sm:hover figcaption p {
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
+}
+#fig-top_box_sm figcaption a:hover,
+#fig-top_box_sm figcaption a:focus{
+  text-decoration: underline;
+  color: #fff;
+}
+#fig-top_box_sm figcaption .progress{
+    height: 2.6vw;
+    width: 90%;
+    margin: auto 4%;
+    display: inline-block;
+    margin-top: 10vw;
+}
+#fig-top_box_sm figcaption .progress .progress-bar{
+    font-size: 2vw;
+    line-height: 2.63vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 995px) {
+	.pickup_project_for_top .right {
+	    right: 7%;
+	    width: 35%;
+	    top: 60%;
+	    padding: 9px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.toppage .top_box {
+		max-width: 750px;
+        height: 100vw;
+		background-image: url(../img/top/top-img-sp.png);
+        margin-top: 27px;
+	}
+	.toppage .top_box .top_box-pjt{
+	    padding-top: 8%;
+	}
+	.pickup_project_for_top{
+	    left: 7.8%;
+	}
+	.pickup_project_for_top .imgholder{
+	    width: 85%;
+	}
+	.pickup_project_for_top .imgholder h2.title{
+	    position: absolute;
+	    width: 85%;
+	    height: 12%;
+	    background-color: rgba(0, 0, 0, 0.38);
+	    padding: 10px;
+	    overflow: hidden;
+	    bottom: 46%;
+	    font-size: 3vw;
+	}
+	#fig-top_box figcaption p{
+	    font-size: 2.5vw;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.toppage .top_box{
+		height: 90vw;
+	}
+}
+
+@media screen and (max-width: 525px) {
+	.pickup_project_for_top .imgholder h2.title{
+	    position: absolute;
+	    top: 34%;
+	    width: 85%;
+	    height: 69px;
+	    background-color: rgba(0, 0, 0, 0.38);
+	    padding: 10px;
+	    overflow: hidden;
+        font-size: 16px;
+	}
+}
+
+/*************** margin_box  *****************/
+.lets-start{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.lets-start span{
+    border-radius: 20px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    white-space: nowrap;
+}
+.lets-start a:hover{
+	opacity:0.8;
+}
+.lets-start a.a-about{
+	margin-left: 50px;
+}
+.lets-start span.lets-try{
+	background-color: #dc5d78;
+	color: #fff;
+}
+.lets-start span.lets-about{
+	background-color: #fff;
+	color: #dc5d78;
+    border: 2px solid #dc5d78;
+}
+.lets-start span.lets-kanako1{
+    width: 50px;
+    margin-left: -5px;
+}
+.lets-start span.lets-kanako1 img{
+	width: 60px;
+    margin-top: -72px;
+    margin-left: -25px;
+}
+.lets-support{
+    background-color: #fff;
+}
+.lets-support .lets-start{
+    display: inline-block;
+    vertical-align: middle;
+}
+.lets-support span.lets-kanako2 img{
+    display: inline-block;
+    width: 11vw;
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 581px) {
+	.lets-start span{
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 451px) and (max-width: 580px) {
+	.lets-start p {
+	    padding-top: 3vw;
+	}
+}
+@media screen and (max-width: 580px) {
+	.lets-start{
+	    height: 35vw;
+	    padding: 38px 10px;
+	}
+	.lets-start p {
+        padding-bottom: 10px;
+        white-space: nowrap;
+	}
+	.lets-start span{
+	    padding: 10px 5px;
+	    width: 30vw;
+	}
+	.lets-start span.lets-kanako1 img{
+		width: 9vw;
+	    margin-top: -64px;
+	    margin-left: -12px;
+        display: table-row;
+	}
+	.lets-support span.lets-kanako2 img{
+	    width: 11vw;
+	    margin-top: 0px;
+    	margin-left: 10px;
+    	display: inline-block;
+	}
+	.lets-start a.a-about {
+    	margin-left: 15px;
+	}
+	.lets-support .lets-start{
+	    padding: 24px;
+        width: 84%;
+	}
+	.lets-support span.lets-kanako2{
+	    display: inline-block;
+	}
+}
+
+/*************** Jumbotron > content1 & content2  *****************/
+.top_box .content1,
+.top_box .content2 {
+    text-align: center;
+    padding: 40px 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.top_box .content1 {
+    font-size: 25px;
+}
+
+.top_box h1 {
+    padding: 0px 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .top_box .content1,
+    .top_box .content2 {
+        padding: 50px 0 0 0;
+    }
+
+    .top_box h1 {
+        font-size: 25px;
+    }
+
+    h3 {
+        padding: 10px 0 5px 0;
+    }
+
+    #contents {
+        padding-bottom: 40px;
+    }
+}
+
+/*************** pickup_project  *****************/
+.pickup_project_box {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 0px;
+}
+
+.pickup_project {
+    margin: 0 auto 20px auto;
+    display: table;
+    box-shadow: 0 4px 0 #ccc;
+}
+
+.pickup_project .imgholder,
+.pickup_project .right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.pickup_project .imgholder {
+    position: relative;
+    max-width:600px;
+}
+
+.pickup_project .right {
+    padding: 10px 20px;
+    background: #fff;
+    position: relative;
+    width:700px;
+}
+
+.pickup_project_for_top .right.hidden-lg.hidden-md.hidden-sm{
+    position: relative;
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+    border: solid 6px #cf9574;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.pickup_project h2.title a {
+    color: #000;
+    font-size: 18px;
+}
+
+.pickup_project p.description {
+    font-size: 13px;
+}
+
+.pickup_project .graph_footer {
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+}
+
+.pickup_project .grid_footer {
+    font-size: 12px;
+    display: table;
+    width: 100%;
+}
+
+.pickup_project .grid_footer div {
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/****** success ******/
+.pickup_project .project_success {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80%;
+    margin-left: -40%;
+    padding: 4px 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .pickup_project .right {
+        width:550px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .pickup_project .right {
+        width:500px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .pickup_project .right {
+        width:450px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .pickup_project .right {
+        width:400px;
+    }
+}
+@media screen and (max-width: 749px) {
+    .pickup_project {
+        display: block;
+        max-width:600px;
+    }
+
+    .pickup_project .imgholder,
+    .pickup_project .right {
+        display: block;
+        margin: 0;
+    }
+
+    .pickup_project .right {
+        padding: 10px 10px 10px 10px;
+        background: #fff;
+        position: relative;
+        width:100%;
+    }
+
+    .pickup_project h2.title {
+        margin: 0 0 10px 0;
+    }
+
+    .pickup_project h2.title a {
+        color: #000;
+        font-size: 15px;
+    }
+
+    .pickup_project .graph_footer {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pickup_project .grid_footer {
+        font-size: 12px;
+        display: table;
+    }
+
+    .pickup_project .grid_footer div {
+        display: table-cell;
+        width: 33%;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+}
+
+/*************** report & category  *****************/
+.top_content {
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+
+/* 画面サイズごとの設定 */
+
+/* Lサイズ、ワイドスクリーン : Large Devices, Wide Screens */
+@media only screen and (min-width : 993px) {
+	p.p1,
+	figcaption h3{
+	    font-size: 28px;
+	}
+	span.s1,
+	figcaption p{
+		font-size: 22px;
+	}
+	span.s1{
+        width: 380px;
+	}
+}
+
+/* Mサイズ、デスクトップ : Medium Devices, Desktops */
+@media only screen and (min-width : 769px) and (max-width : 992px) {
+	p.p1,
+	figcaption h3{
+	    font-size: 26px;
+	}}
+	span.s1,
+	figcaption p{
+		font-size: 20px;
+	}
+	span.s1{
+        width: 325px;
+	}
+
+}
+
+/* Sサイズ、タブレット : Small Devices, Tablets */
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+	p.p1,
+	figcaption h3{
+	    font-size: 24px;
+	}
+	span.s1,
+	figcaption p{
+	    font-size: 18px;
+	}
+	span.s1{
+        width: 250px;
+	}
+
+}
+
+/* XSサイズ : Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	p.p1,
+	figcaption h3{
+	    font-size: 20px;
+	}
+	span.s1,
+	figcaption p{
+	    font-size: 16px;
+	}
+	span.s1{
+        width: 200px;
+	}
+
+}
