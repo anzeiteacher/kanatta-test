@@ -56,6 +56,9 @@
                         </div>
                     <?php endif;?>
                 <?php endif;?>
+                <div class="grid-txt1">
+                	<span class="goal_amount">目標：<?php echo number_format(h($project['Project']['goal_amount'])); ?>円</span>
+                </div>
 
                 <?php if(empty($project['Project']['no_goal'])):?>
                     <?php echo $this->element('project/graph', array('project' => $project)) ?>

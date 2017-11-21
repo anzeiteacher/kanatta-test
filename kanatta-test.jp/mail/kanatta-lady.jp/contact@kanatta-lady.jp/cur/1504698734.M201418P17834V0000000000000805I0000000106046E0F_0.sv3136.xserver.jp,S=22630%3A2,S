@@ -1,0 +1,350 @@
+Return-Path: <no-reply@mail.instagram.com>
+Delivered-To: contact@kanatta-lady.jp
+Received: from virusgw2401.xserver.jp (virusgw2401.xserver.jp [202.254.232.243])
+	by sv3136.xserver.jp (Postfix) with ESMTP id 26080106046E09
+	for <contact@kanatta-lady.jp>; Wed,  6 Sep 2017 20:52:14 +0900 (JST)
+Received: from sv3136.xserver.jp (202.254.234.137)
+ by virusgw2401.xserver.jp (F-Secure/fsigk_smtp/521/virusgw2401.xserver.jp);
+ Wed, 06 Sep 2017 20:52:13 +0900 (JST)
+X-Virus-Status: clean(F-Secure/fsigk_smtp/521/virusgw2401.xserver.jp)
+Received: from mx-out.facebook.com (69-171-232-136.outmail.facebook.com [69.171.232.136])
+	by sv3136.xserver.jp (Postfix) with ESMTPS id 984E9106046E06
+	for <contact@kanatta-lady.jp>; Wed,  6 Sep 2017 20:52:13 +0900 (JST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail.instagram.com;
+	s=s1024-2013-q3; t=1504698731;
+	bh=q4raq27YdLv9EC1hJZ7nH9a+IJVUkpgwaYWzvNGeYcI=;
+	h=Date:To:Subject:From:MIME-Version:Content-Type;
+	b=pTeMIRJO8VlQDxZVLNEsw7WInwoP2znwDmedREV5QMEZOSgUjh8+ExzpKKkaVcFqt
+	 WA50QD34NirJsFRo++N/4kv51GT1Vgi1bLv0b6QdCqof9GqTIqL7xH3npBC9scwwO6
+	 GrSpKCPFRreLgPJPXp5AaFYkUN69aqy2rIcaRyR4=
+Received: from facebook.com (Tdj6HPJ7I/f2/RaASUk0txYfK/6Kds+HwIVE0APlmMLV02ZRafe/CGR7Ia+HjBbl 2401:db00:2030:703b:face:0000:0037:0000)
+ by facebook.com with Thrift id d137d65a92f911e7b9de63ae7c9f60cb-dfc0f130;
+ Wed, 06 Sep 2017 04:52:11 -0700
+X-Facebook: from 2401:db00:1110:902e:face:0:6f:0 ([MTI3LjAuMC4x]) 
+	by api.facebook.com with HTTP (ZuckMail);
+Date: Wed, 6 Sep 2017 04:52:11 -0700
+To: contact@kanatta-lady.jp
+Subject: =?UTF-8?B?b2ZmaWNpYWxfa2FuYXR0?=
+ =?UTF-8?B?YeOBleOCk+OAgUluc3RhZ3JhbeOBuOOCiA==?=
+ =?UTF-8?B?44GG44GT44Gd77yB44G+44Ga44Gv44Oh44O844Or44Ki44OJ44Os44K544Gu?=
+ =?UTF-8?B?6KqN6Ki844KS5a6M5LqG44GX44Gm44GP44Gg44GV44GE44CC?=
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+From: "Instagram" <no-reply@mail.instagram.com>
+Reply-to: Instagram <no-reply@mail.instagram.com>
+Errors-To: no-reply@mail.instagram.com
+X-Facebook-Notify: ig_introduction; mailid=HMjcwMTMwODQxOmNvbnRhY3RAa2FuYXR0YS1sYWR5LmpwOjg1OQ
+List-Unsubscribe: <https://instagram.com/emails/unsubscribe/tutorial?user_id=5999674487&sig=AU9GIWUv-z7vOkpT>
+Feedback-ID: 9999:ig_introduction:Facebook
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+Message-ID: <928491e080545b31157a48075563b0a2@api.facebook.com>
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+XSRV-Filter: contact@kanatta-lady.jp
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /><style>@media all and (max-width: =
+480px){*[class].ib_t{min-width:100% =
+!important}*[class].ib_row{display:block =
+!important}*[class].ib_ext{display:block !important;padding:10px 0 5px =
+0;vertical-align:top !important;width:100% =
+!important}*[class].ib_img,*[class].ib_mid{vertical-align:top =
+!important}*[class].mb_blk{display:block =
+!important;padding-bottom:10px;width:100% =
+!important}*[class].mb_hide{display:none =
+!important}*[class].mb_inl{display:inline !important}}.d_mb_show{display:n=
+one}.d_mb_show_center{display:table;margin:auto}@media only screen and =
+(max-device-width: 480px){.d_mb_hide{display:none =
+!important}.d_mb_show{display:block !important}}.mb_text h1,.mb_text =
+h2,.mb_text h3,.mb_text h4,.mb_text h5,.mb_text =
+h6{line-height:normal}.mb_work_text =
+h1{font-size:18px;line-height:normal;margin-top:4px}.mb_work_text =
+h2,.mb_work_text =
+h3{font-size:16px;line-height:normal;margin-top:4px}.mb_work_text =
+h4,.mb_work_text h5,.mb_work_text =
+h6{font-size:14px;line-height:normal}.mb_work_text =
+a{color:#1270e9}.mb_work_text p{margin-top:4px}</style></head><body =
+style=3D"margin:0;padding:0;" dir=3D"ltr" bgcolor=3D"#ffffff"><table =
+border=3D"0" width=3D"100%;" cellspacing=3D"0" cellpadding=3D"0" =
+id=3D"email_table" style=3D"border-collapse:collapse;"><tr><td =
+id=3D"email_content" style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr style=3D""><td height=3D"20" =
+style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+height=3D"1" colspan=3D"3" style=3D"line-height:1px;"></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"430" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;margin:0 auto 0 =
+auto;"><tr><td style=3D""><table border=3D"0" width=3D"430px" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;margin:0 auto 0 auto;width:430px;"><tr =
+style=3D""><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D""><img =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/ri-arh5nIkG.png" =
+width=3D"430" style=3D"border:0;width:430px;" /></td></tr><tr =
+style=3D""><td height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td style=3D""><table border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td width=3D"30" =
+style=3D"display:block;width:30px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D""><p =
+style=3D"padding:0;margin:0;text-align:center;color:#000000;font-size:25px=
+;">official_kanatta=E3=81=95=E3=82=93 =E2=80=95 =
+Instagram=E3=81=B8=E3=82=88=E3=81=86=E3=81=93=E3=81=9D=EF=BC=81</p><p =
+style=3D"padding:0;margin:0;text-align:center;color:#565a5c;font-size:18px=
+;">=E3=81=BE=E3=81=9A=E3=81=AF=E3=83=A1=E3=83=BC=E3=83=AB=E3=82=A2=E3=83=
+=89=E3=83=AC=E3=82=B9=E3=81=AE=E8=AA=8D=E8=A8=BC=E3=82=92=E5=AE=8C=E4=BA=
+=86=E3=81=97=E3=81=A6=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=80=82=E3=82=
+=A2=E3=82=AB=E3=82=A6=E3=83=B3=E3=83=88=E3=81=AB=E3=82=A2=E3=82=AF=E3=82=
+=BB=E3=82=B9=E3=81=A7=E3=81=8D=E3=81=AA=E3=81=8F=E3=81=AA=E3=81=A3=E3=81=
+=9F=E6=99=82=E3=81=AB=E3=80=81=E3=81=93=E3=81=AE=E3=83=A1=E3=83=BC=E3=83=
+=AB=E3=82=A2=E3=83=89=E3=83=AC=E3=82=B9=E3=81=8C=E5=BF=85=E8=A6=81=E3=81=
+=A8=E3=81=AA=E3=82=8A=E3=81=BE=E3=81=99=E3=80=82</p></td></tr><tr =
+style=3D""><td height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"1">&nbsp;</td></tr><tr><td style=3D""><a href=3D"https://instag=
+ram.com/accounts/confirm_email/bWLvK0hj/Y29udGFjdEBrYW5hdHRhLWxhZHkuanA/?a=
+pp_redirect=3DFalse" style=3D"color:#3b5998;text-decoration:none;display:b=
+lock;width:370px;"><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"border-collapse:collapse;border-radius:3px;text-align:center;disp=
+lay:block;border:solid 1px #009fdf;padding:10px 16px 14px 16px;margin:0 =
+2px 0 auto;min-width:80px;background-color:#47A2EA;"><a =
+href=3D"https://instagram.com/accounts/confirm_email/bWLvK0hj/Y29udGFjdEBr=
+YW5hdHRhLWxhZHkuanA/?app_redirect=3DFalse" =
+style=3D"color:#3b5998;text-decoration:none;display:block;"><center><font =
+size=3D"3"><span style=3D"font-family:Helvetica Neue,Helvetica,Roboto,Aria=
+l,sans-serif;white-space:nowrap;font-weight:bold;vertical-align:middle;col=
+or:#fdfdfd;font-size:16px;line-height:16px;">=E3=83=A1=E3=83=BC=E3=83=AB=
+=E3=82=A2=E3=83=89=E3=83=AC=E3=82=B9=E3=82=92=E8=AA=8D=E8=A8=BC=E3=81=97=
+=E3=81=A6=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84</span></font></center></a></=
+td></tr></table></a></td></tr><tr style=3D""><td height=3D"30" =
+style=3D"line-height:30px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+style=3D"border-top:solid 1px #c8c8c8;"></td></tr></table></td><td =
+width=3D"30" style=3D"display:block;width:30px;">&nbsp;&nbsp;&nbsp;</td></=
+tr></table></td></tr><tr style=3D""><td height=3D"25" =
+style=3D"line-height:25px;" colspan=3D"3">&nbsp;</td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr =
+style=3D""><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D""><img =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/1vEc4R7__Ok.png" =
+width=3D"430" style=3D"border:0;width:430px;" /></td></tr><tr =
+style=3D""><td height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td style=3D""><table border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td width=3D"30" =
+style=3D"display:block;width:30px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D""><p =
+style=3D"padding:0;margin:0;text-align:center;color:#000000;font-size:25px=
+;">=E3=83=95=E3=82=A9=E3=83=AD=E3=83=BC=E3=81=99=E3=82=8B=E3=82=B3=E3=83=
+=B3=E3=83=86=E3=83=B3=E3=83=84=E3=81=AE=E9=81=B8=E6=8A=9E</p><p =
+style=3D"padding:0;margin:0;text-align:center;color:#565a5c;font-size:18px=
+;">=E8=AA=B0=E3=81=8B=E3=82=92=E3=83=95=E3=82=A9=E3=83=AD=E3=83=BC=E3=81=
+=99=E3=82=8B=E3=81=A8=E3=80=81=E3=81=9D=E3=81=AE=E4=BA=BA=E3=81=8C=E6=8A=
+=95=E7=A8=BF=E3=81=97=E3=81=9F=E5=86=99=E7=9C=9F=E3=82=84=E5=8B=95=E7=94=
+=BB=E3=81=8C=E3=83=95=E3=82=A3=E3=83=BC=E3=83=89=E3=81=AB=E8=A1=A8=E7=A4=
+=BA=E3=81=95=E3=82=8C=E3=81=BE=E3=81=99=E3=80=82=E5=8F=8B=E9=81=94=E3=82=
+=84=E5=90=8C=E3=81=98=E8=B6=A3=E5=91=B3=E3=83=BB=E9=96=A2=E5=BF=83=E3=82=
+=92=E6=8C=81=E3=81=A4=E4=BA=BA=E3=81=AA=E3=81=A9=E3=80=81=E3=83=95=E3=82=
+=A9=E3=83=AD=E3=83=BC=E3=81=97=E3=81=A6=E3=81=84=E3=82=8B=E3=82=A2=E3=82=
+=AB=E3=82=A6=E3=83=B3=E3=83=88=E3=81=8C=E5=A4=9A=E3=81=84=E3=81=BB=E3=81=
+=A9=E3=80=81=E6=A7=98=E3=80=85=E3=81=AA=E3=82=B3=E3=83=B3=E3=83=86=E3=83=
+=B3=E3=83=84=E3=82=92=E3=83=95=E3=82=A3=E3=83=BC=E3=83=89=E3=81=A7=E6=A5=
+=BD=E3=81=97=E3=82=81=E3=82=8B=E3=82=88=E3=81=86=E3=81=AB=E3=81=AA=E3=82=
+=8A=E3=81=BE=E3=81=99=E3=80=82</p></td></tr><tr style=3D""><td =
+height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"1">&nbsp;</td></tr><tr><td style=3D""><a href=3D"https://instag=
+ram.com/accounts/confirm_email/bWLvK0hj/Y29udGFjdEBrYW5hdHRhLWxhZHkuanA/?a=
+pp_redirect=3DFalse" style=3D"color:#3b5998;text-decoration:none;display:b=
+lock;width:370px;"><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"border-collapse:collapse;border-radius:3px;text-align:center;disp=
+lay:block;border:solid 1px #009fdf;padding:10px 16px 14px 16px;margin:0 =
+2px 0 auto;min-width:80px;background-color:#47A2EA;"><a =
+href=3D"https://instagram.com/accounts/confirm_email/bWLvK0hj/Y29udGFjdEBr=
+YW5hdHRhLWxhZHkuanA/?app_redirect=3DFalse" =
+style=3D"color:#3b5998;text-decoration:none;display:block;"><center><font =
+size=3D"3"><span style=3D"font-family:Helvetica Neue,Helvetica,Roboto,Aria=
+l,sans-serif;white-space:nowrap;font-weight:bold;vertical-align:middle;col=
+or:#fdfdfd;font-size:16px;line-height:16px;">=E3=83=95=E3=82=A9=E3=83=AD=
+=E3=83=BC=E3=81=99=E3=82=8B=E4=BA=BA=E3=82=92=E8=A6=8B=E3=81=A4=E3=81=91=
+=E3=82=88=E3=81=86</span></font></center></a></td></tr></table></a></td></=
+tr><tr style=3D""><td height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td style=3D"border-top:solid 1px =
+#c8c8c8;"></td></tr></table></td><td width=3D"30" style=3D"display:block;w=
+idth:30px;">&nbsp;&nbsp;&nbsp;</td></tr></table></td></tr><tr =
+style=3D""><td height=3D"25" style=3D"line-height:25px;" =
+colspan=3D"3">&nbsp;</td></tr></table></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr =
+style=3D""><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D""><img =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/c_fqmsNS33Y.png" =
+width=3D"430" style=3D"border:0;width:430px;" /></td></tr><tr =
+style=3D""><td height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td style=3D""><table border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td width=3D"30" =
+style=3D"display:block;width:30px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D""><p =
+style=3D"padding:0;margin:0;text-align:center;color:#000000;font-size:25px=
+;">=E8=87=AA=E5=88=86=E3=82=92=E8=A1=A8=E7=8F=BE=E3=81=97=E3=82=88=E3=81=
+=86</p><p style=3D"padding:0;margin:0;text-align:center;color:#565a5c;font=
+-size:18px;">=E4=BD=95=E6=B0=97=E3=81=AA=E3=81=84=E6=9C=9D=E3=81=AE=E5=85=
+=89=E6=99=AF=E3=81=8B=E3=82=89=E5=A4=A2=E3=81=AE=E3=82=88=E3=81=86=E3=81=
+=AA=E6=97=85=E3=81=AE=E5=86=99=E7=9C=9F=E3=81=BE=E3=81=A7=E3=80=81=E6=97=
+=A5=E5=B8=B8=E3=81=AE=E7=9E=AC=E9=96=93=E3=82=92=E3=81=A8=E3=82=89=E3=81=
+=88=E3=81=9F=E5=86=99=E7=9C=9F=E3=82=84=E5=8B=95=E7=94=BB=E3=81=A7=E8=87=
+=AA=E5=88=86=E3=82=92=E8=A1=A8=E7=8F=BE=E3=81=97=E3=82=88=E3=81=86=E3=80=
+=82Instagram=E3=81=A7=E3=81=AF=E3=80=81=E7=84=A1=E6=96=99=E3=83=95=E3=82=
+=A3=E3=83=AB=E3=82=BF=E3=83=BC=E3=82=84=E3=83=84=E3=83=BC=E3=83=AB=E3=82=
+=92=E4=BD=BF=E3=81=A3=E3=81=A6=E3=80=81=E3=82=AF=E3=83=AA=E3=82=A8=E3=82=
+=A4=E3=83=86=E3=82=A3=E3=83=96=E3=81=AA=E3=82=B3=E3=83=B3=E3=83=86=E3=83=
+=B3=E3=83=84=E3=82=92=E7=B0=A1=E5=8D=98=E3=81=AB=E3=82=B7=E3=82=A7=E3=82=
+=A2=E3=81=A7=E3=81=8D=E3=81=BE=E3=81=99=E3=80=82</p></td></tr><tr =
+style=3D""><td height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"1">&nbsp;</td></tr><tr><td style=3D""><a href=3D"https://instag=
+ram.com/accounts/confirm_email/bWLvK0hj/Y29udGFjdEBrYW5hdHRhLWxhZHkuanA/?a=
+pp_redirect=3DFalse" style=3D"color:#3b5998;text-decoration:none;display:b=
+lock;width:370px;"><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"border-collapse:collapse;border-radius:3px;text-align:center;disp=
+lay:block;border:solid 1px #009fdf;padding:10px 16px 14px 16px;margin:0 =
+2px 0 auto;min-width:80px;background-color:#47A2EA;"><a =
+href=3D"https://instagram.com/accounts/confirm_email/bWLvK0hj/Y29udGFjdEBr=
+YW5hdHRhLWxhZHkuanA/?app_redirect=3DFalse" =
+style=3D"color:#3b5998;text-decoration:none;display:block;"><center><font =
+size=3D"3"><span style=3D"font-family:Helvetica Neue,Helvetica,Roboto,Aria=
+l,sans-serif;white-space:nowrap;font-weight:bold;vertical-align:middle;col=
+or:#fdfdfd;font-size:16px;line-height:16px;">Instagram=E3=82=92=E9=96=8B=
+=E3=81=8F</span></font></center></a></td></tr></table></a></td></tr><tr =
+style=3D""><td height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td style=3D"border-top:solid 1px =
+#c8c8c8;"></td></tr></table></td><td width=3D"30" style=3D"display:block;w=
+idth:30px;">&nbsp;&nbsp;&nbsp;</td></tr></table></td></tr><tr =
+style=3D""><td height=3D"25" style=3D"line-height:25px;" =
+colspan=3D"3">&nbsp;</td></tr></table></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr =
+style=3D""><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D""><img =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/FgKBZRAW4zF.png" =
+width=3D"430" style=3D"border:0;width:430px;" /></td></tr><tr =
+style=3D""><td height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td style=3D""><table border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td width=3D"30" =
+style=3D"display:block;width:30px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D""><p =
+style=3D"padding:0;margin:0;text-align:center;color:#000000;font-size:25px=
+;">=E8=87=AA=E5=88=86=E3=81=AB=E5=90=88=E3=81=A3=E3=81=9F=E3=82=B3=E3=83=
+=B3=E3=83=86=E3=83=B3=E3=83=84=E3=82=92=E8=A6=8B=E3=81=A4=E3=81=91=E3=82=
+=88=E3=81=86</p><p style=3D"padding:0;margin:0;text-align:center;color:#56=
+5a5c;font-size:18px;">[=E7=99=BA=E8=A6=8B]=E3=82=BF=E3=83=96=E3=81=A7=E3=
+=80=81=E3=81=BE=E3=81=A0=E3=83=95=E3=82=A9=E3=83=AD=E3=83=BC=E3=81=97=E3=
+=81=A6=E3=81=84=E3=81=AA=E3=81=84=E3=82=A2=E3=82=AB=E3=82=A6=E3=83=B3=E3=
+=83=88=E3=81=AE=E5=86=99=E7=9C=9F=E3=82=84=E5=8B=95=E7=94=BB=E3=82=92=E3=
+=83=81=E3=82=A7=E3=83=83=E3=82=AF=E3=81=99=E3=82=8B=E3=81=93=E3=81=A8=E3=
+=81=8C=E3=81=A7=E3=81=8D=E3=81=BE=E3=81=99=E3=80=82=E3=81=93=E3=81=93=E3=
+=81=AB=E8=A1=A8=E7=A4=BA=E3=81=95=E3=82=8C=E3=82=8B=E6=8A=95=E7=A8=BF=E3=
+=81=AF=E3=80=81=E5=88=A9=E7=94=A8=E8=80=85=E3=81=AE=E8=B6=A3=E5=91=B3=E3=
+=83=BB=E9=96=A2=E5=BF=83=E3=82=84Instagram=E3=81=A7=E3=81=AE=E3=82=A2=E3=
+=82=AF=E3=83=86=E3=82=A3=E3=83=93=E3=83=86=E3=82=A3=E3=81=AB=E5=90=88=E3=
+=82=8F=E3=81=9B=E3=81=9F=E3=81=8A=E3=81=99=E3=81=99=E3=82=81=E3=82=B3=E3=
+=83=B3=E3=83=86=E3=83=B3=E3=83=84=E3=81=A7=E3=81=99=E3=80=82=E3=81=93=E3=
+=81=93=E3=81=8B=E3=82=89=E6=96=B0=E3=81=97=E3=81=84=E3=82=A2=E3=82=AB=E3=
+=82=A6=E3=83=B3=E3=83=88=E3=82=92=E3=83=95=E3=82=A9=E3=83=AD=E3=83=BC=E3=
+=81=97=E3=81=A6=E3=80=81=E3=83=95=E3=82=A3=E3=83=BC=E3=83=89=E3=81=A7=E3=
+=81=9D=E3=81=AE=E3=82=A2=E3=82=AB=E3=82=A6=E3=83=B3=E3=83=88=E3=81=AE=E6=
+=8A=95=E7=A8=BF=E3=82=92=E3=83=81=E3=82=A7=E3=83=83=E3=82=AF=E3=81=97=E3=
+=81=BE=E3=81=97=E3=82=87=E3=81=86=E3=80=82</p></td></tr><tr style=3D""><td =
+height=3D"30" style=3D"line-height:30px;" =
+colspan=3D"1">&nbsp;</td></tr><tr><td style=3D""><a href=3D"https://instag=
+ram.com/accounts/confirm_email/bWLvK0hj/Y29udGFjdEBrYW5hdHRhLWxhZHkuanA/?a=
+pp_redirect=3DFalse" style=3D"color:#3b5998;text-decoration:none;display:b=
+lock;width:370px;"><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"border-collapse:collapse;border-radius:3px;text-align:center;disp=
+lay:block;border:solid 1px #009fdf;padding:10px 16px 14px 16px;margin:0 =
+2px 0 auto;min-width:80px;background-color:#47A2EA;"><a =
+href=3D"https://instagram.com/accounts/confirm_email/bWLvK0hj/Y29udGFjdEBr=
+YW5hdHRhLWxhZHkuanA/?app_redirect=3DFalse" =
+style=3D"color:#3b5998;text-decoration:none;display:block;"><center><font =
+size=3D"3"><span style=3D"font-family:Helvetica Neue,Helvetica,Roboto,Aria=
+l,sans-serif;white-space:nowrap;font-weight:bold;vertical-align:middle;col=
+or:#fdfdfd;font-size:16px;line-height:16px;">[=E7=99=BA=E8=A6=8B]=E3=82=BF=
+=E3=83=96=E3=82=92=E3=83=81=E3=82=A7=E3=83=83=E3=82=AF</span></font></cent=
+er></a></td></tr></table></a></td></tr><tr style=3D""><td height=3D"30" =
+style=3D"line-height:30px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+style=3D"border-top:solid 1px #c8c8c8;"></td></tr></table></td><td =
+width=3D"30" style=3D"display:block;width:30px;">&nbsp;&nbsp;&nbsp;</td></=
+tr></table></td></tr><tr style=3D""><td height=3D"25" =
+style=3D"line-height:25px;" colspan=3D"3">&nbsp;</td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><p style=3D"padding:0;margin:0;text-align:center;color:#565a5c;=
+font-size:18px;">=E4=B8=8A=E8=A8=98=E3=81=AE=E3=81=84=E3=81=9A=E3=82=8C=E3=
+=81=8B=E3=81=AE=E3=83=AA=E3=83=B3=E3=82=AF=E3=82=92=E3=82=AF=E3=83=AA=E3=
+=83=83=E3=82=AF=E3=81=99=E3=82=8B=E3=81=A8=E3=80=81Instagram=E3=81=A7conta=
+ct&#064;kanatta-lady.jp=E3=81=8C=E8=AA=8D=E8=A8=BC=E3=81=95=E3=82=8C=E3=81=
+=BE=E3=81=99=E3=80=82</p></td><td width=3D"15" style=3D"display:block;widt=
+h:15px;">&nbsp;&nbsp;&nbsp;</td></tr></table></td></tr></table></td></tr><=
+tr><td style=3D""><table border=3D"0" width=3D"430px" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;margin:0 auto 0 =
+auto;width:430px;"><tr style=3D""><td height=3D"30" =
+style=3D"line-height:30px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+width=3D"30" =
+style=3D"display:block;width:30px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><div style=3D"color:#abadae;font-size:12px;margin:0 auto 5px =
+auto;">=C2=A9 Instagram, 1 Hacker Way, Menlo Park, CA 94025</div><div =
+style=3D"color:#abadae;font-size:12px;margin:0 auto 5px =
+auto;">=E3=81=93=E3=81=AE=E3=83=A1=E3=83=83=E3=82=BB=E3=83=BC=E3=82=B8=E3=
+=81=AFofficial_kanatta=E5=90=91=E3=81=91=E3=81=AB<a style=3D"color:#abadae=
+;text-decoration:underline;">contact&#064;kanatta-lady.jp</a>=E3=81=AB=E9=
+=80=81=E4=BF=A1=E3=81=95=E3=82=8C=E3=81=9F=E3=82=82=E3=81=AE=E3=81=A7=E3=
+=81=99=E3=80=82=E3=81=93=E3=82=8C=E3=81=AFInstagram=E3=81=AE=E6=9C=80=E6=
+=96=B0=E6=83=85=E5=A0=B1=E3=81=AB=E9=96=A2=E3=81=99=E3=82=8B=E3=83=80=E3=
+=82=A4=E3=82=B8=E3=82=A7=E3=82=B9=E3=83=88=E3=83=A1=E3=83=BC=E3=83=AB=E3=
+=81=A7=E3=81=99=E3=80=82=E3=81=93=E3=81=AE=E3=82=88=E3=81=86=E3=81=AA=E3=
+=83=A1=E3=83=BC=E3=83=AB=E3=82=92=E5=8F=97=E3=81=91=E5=8F=96=E3=82=8A=E3=
+=81=9F=E3=81=8F=E3=81=AA=E3=81=84=E5=A0=B4=E5=90=88=E3=81=AF=E3=80=81<a =
+href=3D"https://instagram.com/emails/unsubscribe/tutorial?user_id=3D599967=
+4487&amp;sig=3DAU9GIWUv-z7vOkpT" style=3D"color:#abadae;text-decoration:un=
+derline;">=E9=85=8D=E4=BF=A1=E3=82=92=E5=81=9C=E6=AD=A2</a>=E3=81=97=E3=81=
+=A6=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=80=82=E3=81=BE=E3=81=9F=E3=80=
+=81=E3=81=93=E3=82=8C=E3=81=8C=E3=81=82=E3=81=AA=E3=81=9F=E3=81=AEInstagra=
+m=E3=82=A2=E3=82=AB=E3=82=A6=E3=83=B3=E3=83=88=E3=81=A7=E3=81=AF=E3=81=AA=
+=E3=81=84=E5=A0=B4=E5=90=88=E3=81=AF=E3=80=81=E3=81=93=E3=81=AE=E3=82=A2=
+=E3=82=AB=E3=82=A6=E3=83=B3=E3=83=88=E3=81=8B=E3=82=89<a =
+href=3D"https://instagram.com/accounts/remove/report_wrong_email/2r81ugn/4=
+p8-d36be4c9359b7cfc39e296bee92efab9/roG5TAil/Y29udGFjdEBrYW5hdHRhLWxhZHkua=
+nA/" style=3D"color:#abadae;text-decoration:underline;">=E3=83=A1=E3=83=BC=
+=E3=83=AB=E3=82=A2=E3=83=89=E3=83=AC=E3=82=B9=E3=82=92=E5=89=8A=E9=99=A4</=
+a>=E3=81=97=E3=81=A6=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=80=82<br =
+/></div></td><td width=3D"30" style=3D"display:block;width:30px;">&nbsp;&n=
+bsp;&nbsp;</td></tr></table></td></tr><tr style=3D""><td height=3D"20" =
+style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr></table><span =
+style=3D""><img src=3D"https://www.facebook.com/email_open_log_pic.php?mid=
+=3DHMjcwMTMwODQxOmNvbnRhY3RAa2FuYXR0YS1sYWR5LmpwOjg1OQ" =
+style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+

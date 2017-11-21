@@ -14,7 +14,7 @@
             <div class="container clearfix">
                 <div class="btn-group">
                     <button type="button" onclick="new_text_top($(this));" class="btn btn-default-flat">
-                        <span class="el-icon-pencil"></span>
+                        <sapan class="el-icon-pencil"></sapan>
                     </button>
 
                     <button type="button" onClick="new_img_top($(this));" class="btn btn-default-flat">

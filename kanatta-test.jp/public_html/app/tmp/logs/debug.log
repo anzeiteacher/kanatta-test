@@ -2264,3 +2264,2716 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 86
 
+2017-10-30 18:28:13 Notice: Notice (8): Use of undefined constant FB_API_KEY - assumed 'FB_API_KEY' in [/home/kanatta/kanatta-lady.jp/public_html/app/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 56]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FbComponent::get_facebook() - APP/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 56
+FbComponent::set_facebook_login_url() - APP/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 22
+UsersController::mail_auth() - APP/Plugin/LogiAuth/Controller/UsersController.php, line 182
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 18:28:13 Notice: Notice (8): Use of undefined constant FB_API_SECRET - assumed 'FB_API_SECRET' in [/home/kanatta/kanatta-lady.jp/public_html/app/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 56]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FbComponent::get_facebook() - APP/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 56
+FbComponent::set_facebook_login_url() - APP/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 22
+UsersController::mail_auth() - APP/Plugin/LogiAuth/Controller/UsersController.php, line 182
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 18:28:13 Notice: Notice (8): Use of undefined constant FB_API_KEY - assumed 'FB_API_KEY' in [/home/kanatta/kanatta-lady.jp/public_html/app/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 57]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FbComponent::get_facebook() - APP/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 57
+FbComponent::set_facebook_login_url() - APP/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 22
+UsersController::mail_auth() - APP/Plugin/LogiAuth/Controller/UsersController.php, line 182
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 18:28:13 Notice: Notice (8): Use of undefined constant FB_API_SECRET - assumed 'FB_API_SECRET' in [/home/kanatta/kanatta-lady.jp/public_html/app/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 58]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FbComponent::get_facebook() - APP/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 58
+FbComponent::set_facebook_login_url() - APP/Plugin/LogiAuth/Controller/Component/FbComponent.php, line 22
+UsersController::mail_auth() - APP/Plugin/LogiAuth/Controller/UsersController.php, line 182
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 18:28:17 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:07:49 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:07:56 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:07:56 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:07:56 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:01 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:01 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:01 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:05 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:05 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:05 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:33 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:38 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:38 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:38 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:42 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:42 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:08:42 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:29 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:41 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:41 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:41 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:44 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:44 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:44 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:46 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:46 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:09:46 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:05 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:05 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:05 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:11 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:12 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:12 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:12 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:17 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:17 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:10:17 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:16:05 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:17:02 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:21:44 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 19:58:25 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 20:07:28 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 20:11:03 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 20:13:42 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:22:00 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:22:34 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:36:12 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:36:16 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:36:19 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:36:20 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:36:31 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:38:20 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:38:37 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:38:43 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:39:23 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:40:22 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:43:58 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:44:29 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:44:32 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:44:49 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:46:35 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:50:39 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-30 22:50:41 Notice: Notice (8): Undefined variable: pickup_pj in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Base/crowd_top.ctp, line 23]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Base/crowd_top.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+BaseController::index() - APP/Controller/BaseController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:21 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:21 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:21 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:25 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:25 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:25 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:37 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:37 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 01:41:37 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 16:59:50 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 16:59:50 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 16:59:50 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:00:14 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:00:14 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:00:14 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:36 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:36 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:36 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:46 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:46 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:46 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:58 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:58 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:01:58 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:00 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:00 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:00 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:02 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:03 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:03 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:06 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:06 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:02:06 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:03:58 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:03:58 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:03:58 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:04:00 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:04:00 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:04:00 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:34 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:34 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:11:34 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:12:41 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:12:41 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:12:41 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:31:18 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:31:18 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:31:18 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:31:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:31:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:31:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:32:01 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:32:01 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:32:01 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:32:40 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:32:40 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:32:40 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:33:06 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:33:06 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:33:06 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:34:04 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:34:04 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:34:04 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:34:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:34:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:34:27 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:53:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Helper/UserHelper.php, line 95]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UserHelper::get_user_img_md() - APP/View/Helper/UserHelper.php, line 95
+include - APP/View/Elements/mypage/header.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:53:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 7]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 7
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-10-31 17:53:22 Notice: Notice (8): Undefined index: User in [/home/kanatta/kanatta-lady.jp/public_html/app/View/Elements/mypage/header.ctp, line 10]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Elements/mypage/header.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::_renderElement() - CORE/Cake/View/View.php, line 1224
+View::element() - CORE/Cake/View/View.php, line 418
+include - APP/View/Layouts/mypage.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-02 00:01:40 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-02 02:20:04 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-02 02:28:17 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-02 04:33:45 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-02 16:49:03 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-17 00:49:48 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-17 00:50:18 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-17 10:34:17 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-17 10:34:24 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-17 10:34:53 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-18 04:32:48 Notice: Notice (8): Undefined variable: id in [/home/kanatta/kanatta-lady.jp/public_html/app/Controller/Project/CategoriesController.php, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CategoriesController::index() - APP/Controller/Project/CategoriesController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+

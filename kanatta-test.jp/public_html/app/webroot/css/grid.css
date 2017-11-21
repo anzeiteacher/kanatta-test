@@ -279,3 +279,10 @@
     float: left;
     width: 50%;
 }
+
+/***** pickup_project ******/
+.pickup_project_for_top .grid_footer .goal_amount{
+    text-align: right;
+    display: block;
+    font-size: 13px;
+}

@@ -1,0 +1,106 @@
+Return-Path: <ngsk9101@gmail.com>
+Delivered-To: ladys@kanatta-lady.jp
+Received: from virusgw2401.xserver.jp (virusgw2401.xserver.jp [202.254.232.243])
+	by sv3136.xserver.jp (Postfix) with ESMTP id 9C44B1008E6484
+	for <ladys@kanatta-lady.jp>; Thu, 21 Sep 2017 23:16:12 +0900 (JST)
+Received: from sv3136.xserver.jp (202.254.234.137)
+ by virusgw2401.xserver.jp (F-Secure/fsigk_smtp/521/virusgw2401.xserver.jp);
+ Thu, 21 Sep 2017 23:16:11 +0900 (JST)
+X-Virus-Status: clean(F-Secure/fsigk_smtp/521/virusgw2401.xserver.jp)
+Received: from mail-pg0-f48.google.com (mail-pg0-f48.google.com [74.125.83.48])
+	by sv3136.xserver.jp (Postfix) with ESMTPS id 724651008E648B
+	for <ladys@kanatta-lady.jp>; Thu, 21 Sep 2017 23:16:12 +0900 (JST)
+Received: by mail-pg0-f48.google.com with SMTP id v23so3580722pgc.5
+        for <ladys@kanatta-lady.jp>; Thu, 21 Sep 2017 07:16:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:message-id:mime-version:date:subject:in-reply-to:to:references;
+        bh=LJRlwNrqYApbMeR3UqcrabHwC2/BZlzqKFgaFQMk/AQ=;
+        b=Bjv+oOgIxZWnDTwhLHDR9tTp28YjPFFQg83U2uSScqM5301Ab6dEjUoTPTSk88kxdx
+         mP79zpCB0fBoF/HOjgEiR+FXFWFRf8LN+HUrf3Iv56rad8u/IBD/sYVmZbSOXcU/X0Ow
+         pnFwVVHkO0eaIVsDvVc6zH9OGnzXNM68DTWNtvhCe97J1Kd3Mm75kv0hO8bf39Ufgr9o
+         YxImwv0wPctvhm8NBoQMzok/hSsC4WRP5ftN6Y6k96YdxKg2YK8I0a8CGKG6jZca1tHI
+         YuBsgb3IXEMbA1Jus+j7m1wqdkUKYD07NCj8+TtgMZvLkCx/FjIv7W1iejkPyoc6Bfha
+         xAYA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:message-id:mime-version:date:subject
+         :in-reply-to:to:references;
+        bh=LJRlwNrqYApbMeR3UqcrabHwC2/BZlzqKFgaFQMk/AQ=;
+        b=juP7K4VJl33k78KMZVun63g6OXfQ8P+R+vkZOxDVjdHpx6BaYWIo3OcQAes210gjRi
+         N1nQQtXacSiNaciv+yHl58kYJC+Obs3xmSfPwmbW9vWKgneDiilfiW0AIYvIZxUMaZLV
+         CiFMs+J7HfeAfS9lN7U358KWTOqxGhNyAuDmeBfYIGkxaEOE32uFW8vJ0CKTVMhC+FEN
+         dUw7t1AOinqKjB6luHRNvZNZvAqMKR0r2aZxnp6Tcz/nIeJ+DwXc2GoyLsYaC4+1g49t
+         DO7EROn8wmQCYrd2nHGO0qbfWQGDrX5mK5wCFtFKNTIFVt4OsVjUUUklfoEFtC4G+B3M
+         GDVw==
+X-Gm-Message-State: AHPjjUiDCFpjQ0cmjwxGWHiqOxKlR31Jth2uZLJV8Jok/ovsaUF1bHoU
+	ZucvshH037af6UaI4dlGFh5Gvi/y
+X-Google-Smtp-Source: AOwi7QDXDST9VoM1hD7zpQQ0dt30BP3cLL5iSovzhNhNgVmlH1jBW0oSNFb9hnQ/VDHa/g2d1J2MUg==
+X-Received: by 10.98.192.132 with SMTP id g4mr5855079pfk.34.1506003370896;
+        Thu, 21 Sep 2017 07:16:10 -0700 (PDT)
+Received: from [192.168.0.24] (h210-004-169-093.user.rosenet.ne.jp. [210.4.169.93])
+        by smtp.gmail.com with ESMTPSA id 20sm2973723pft.109.2017.09.21.07.16.09
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 21 Sep 2017 07:16:10 -0700 (PDT)
+From: =?utf-8?B?44G144GP44GY44KT?= <ngsk9101@gmail.com>
+Message-Id: <103A8AA3-6554-4456-A926-7DB806AD593D@gmail.com>
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_3126C1F0-4AD3-44AE-BDE3-AAC005597C7A"
+Mime-Version: 1.0 (Mac OS X Mail 10.3 \(3273\))
+Date: Thu, 21 Sep 2017 23:16:07 +0900
+Subject: Re: test
+In-Reply-To: <ca60502500d73a21a18915af2e74ce4a@kanatta-lady.jp>
+To: ladys@kanatta-lady.jp
+References: <ca60502500d73a21a18915af2e74ce4a@kanatta-lady.jp>
+X-Mailer: Apple Mail (2.3273)
+XSRV-Filter: ladys@kanatta-lady.jp
+
+
+--Apple-Mail=_3126C1F0-4AD3-44AE-BDE3-AAC005597C7A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+test mail 2
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=E2=97=86 =E7=A6=8F=E7=A5=9E
+=E2=97=86 08039092105
+=E2=97=86 ngsk9101@gmail.com
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+> 2017/09/21 23:10=E3=80=81ladys@kanatta-lady.jp=E3=81=AE=E3=83=A1=E3=83=BC=
+=E3=83=AB:
+>=20
+> test mail
+
+
+--Apple-Mail=_3126C1F0-4AD3-44AE-BDE3-AAC005597C7A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">test mail 2<br class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: =
+12px; font-style: normal; font-variant-caps: normal; font-weight: =
+normal; letter-spacing: normal; orphans: auto; text-align: start; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: =
+auto; word-spacing: 0px; -webkit-text-size-adjust: auto; =
+-webkit-text-stroke-width: 0px;">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D<br class=3D"">=E2=97=86 =E7=A6=8F=E7=A5=9E<br =
+class=3D"">=E2=97=86 08039092105<br class=3D"">=E2=97=86&nbsp;<a =
+href=3D"mailto:ngsk9101@gmail.com" class=3D"">ngsk9101@gmail.com</a><br =
+class=3D"">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+</div>
+</div>
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div =
+class=3D"">2017/09/21 23:10=E3=80=81<a =
+href=3D"mailto:ladys@kanatta-lady.jp" =
+class=3D"">ladys@kanatta-lady.jp</a>=E3=81=AE=E3=83=A1=E3=83=BC=E3=83=AB:<=
+/div><br class=3D"Apple-interchange-newline"><div class=3D""><div =
+class=3D"">test mail<br class=3D""></div></div></blockquote></div><br =
+class=3D""></body></html>=
+
+--Apple-Mail=_3126C1F0-4AD3-44AE-BDE3-AAC005597C7A--

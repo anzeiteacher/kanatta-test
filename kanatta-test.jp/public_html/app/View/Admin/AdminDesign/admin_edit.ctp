@@ -22,7 +22,7 @@
                     <div class="form-group">
                         <?php echo $this->Form->input('logo', array(
                                 'type' => 'file', 'label' => 'ロゴ画像', 'class' => 'client_resize',
-                                'onchange' => "client_resize($(this), event, null, 30, 'preview_img', 'logo');"
+                                'onchange' => "client_resize($(this), event, null, 60, 'preview_img', 'logo');"
                         )); ?>
                         <br>
                         <div id="preview_img">

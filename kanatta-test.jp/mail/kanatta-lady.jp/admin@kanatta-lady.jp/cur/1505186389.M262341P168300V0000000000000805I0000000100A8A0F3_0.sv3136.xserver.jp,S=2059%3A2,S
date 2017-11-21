@@ -1,0 +1,55 @@
+Return-Path: <dv-orders@geotrust.com>
+Delivered-To: admin@kanatta-lady.jp
+Received: from virusgw2401.xserver.jp (virusgw2401.xserver.jp [202.254.232.243])
+	by sv3136.xserver.jp (Postfix) with ESMTP id 3A8C31007A6C27
+	for <admin@kanatta-lady.jp>; Tue, 12 Sep 2017 12:19:49 +0900 (JST)
+Received: from sv3136.xserver.jp (202.254.234.137)
+ by virusgw2401.xserver.jp (F-Secure/fsigk_smtp/521/virusgw2401.xserver.jp);
+ Tue, 12 Sep 2017 12:19:48 +0900 (JST)
+X-Virus-Status: clean(F-Secure/fsigk_smtp/521/virusgw2401.xserver.jp)
+Received: from authmail1.symauth.com (authmail1.symauth.com [69.58.183.55])
+	by sv3136.xserver.jp (Postfix) with ESMTPS id C23671004DDC49
+	for <admin@kanatta-lady.jp>; Tue, 12 Sep 2017 12:19:48 +0900 (JST)
+Received: from pomfret1be-d1-ap (pomfret1be-d1-ap.sso-bo.ilg1.vrsn.com [10.244.158.131])
+	by authmail1.symauth.com (8.13.8/8.13.8) with ESMTP id v8C3JjIN014244;
+	Tue, 12 Sep 2017 03:19:46 GMT
+Message-ID: <496595105.1505186385610.JavaMail.support@geotrust.com>
+Date: Tue, 12 Sep 2017 03:19:45 +0000 (UTC)
+From: dv-orders@geotrust.com
+To: admin@kanatta-lady.jp
+Subject: QuickSSL Premium Approval
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Loop-Check: 
+XSRV-Filter: admin@kanatta-lady.jp
+
+Dear Domain Administrator:
+
+The person identified below has requested a QuickSSL Premium certificate for:
+
+www.kanatta-lady.jp
+kanatta-lady.jp
+
+
+Applicant Information:
+
+     Name:   Naoki Kobayashi
+     Email:  ssl@xserver.ne.jp
+     Phone:  +81.752121326
+
+Naoki Kobayashi requests that you come to the URL below to review and approve this certificate request:
+
+     https://products.geotrust.com/orders/A.do?p=PGrYMo1Wx3z45ZpyKdfLJw%3D%3D&id1=2882897
+
+If you have any questions, please contact the person identified above, or visit GeoTrust customer support at:
+
+     http://www.geotrust.com/support
+
+Thank you for choosing GeoTrust!
+
+Thank you,
+QuickSSL Customer Support
+https://www.geotrust.com/support/quick-ssl-support/
+Live Chat: https://www.geotrust.com/support/chat/order-processing.html
+
