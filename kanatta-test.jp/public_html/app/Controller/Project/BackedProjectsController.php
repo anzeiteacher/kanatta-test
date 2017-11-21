@@ -36,7 +36,71 @@ class BackedProjectsController extends AppController
                 }
             }
             $this->_set_backed_info_to_session($project_id, $backing_level_id);
-            return $this->redirect(array('action' => 'card'));
+//            return $this->redirect(array('action' => 'card'));
+
+             list($pj, $bl, $bp) = $this->_card_init();
+             $shop_id = 'tshop00030635';
+             $user_id = $this->Auth->user('id');
+             $pj_id = $bp['pj_id'];
+             $order_id = $this->BackedProject->get_order_id($pj_id, $user_id);
+             $url = 'https://pt01.mul-pay.jp/link/tshop00030635/Multi/Entry';
+             $url .= '?ShopID='. $shop_id;
+             $url .= '&OrderID='. $order_id;
+             $datetime = date('YmdHis');
+             $url .= '&Amount=3000&DateTime=' .$datetime;
+
+             $str = $shop_id.'|'.$order_id.'|3000||6re8enmt|'.$datetime;
+             //MD5変換
+             $url .= '&ShopPassString='.md5($str);
+             $url .= '&RetURL='.'https://kanatta-test.jp/mypage';
+//             $url .= '&UseCredit=1&JobCd=AUTH';
+             $url .= '&UseCvs=1&ReceiptsDisp11=1111111111&ReceiptsDisp12=0000-000-111&ReceiptsDisp13=09:00-20:00';
+             $site_id = '';
+             $member_id = '';
+//             $str = $site_id.'|'.$member_id.'|3000||JPY|h3xryw4f|'.$datetime;
+
+ //            $url .= '&SiteID=1&MemberID=AUTH&MemberPassString=';
+
+//echo $url;
+//POSTデータ
+// $data = array(
+//             		'ShopID' => $shop_id,
+//             		'OrderID' => $order_id
+// 		);
+// $data = http_build_query($data, "", "&");
+
+// //header
+// $header = array(
+//     "Content-Type: application/x-www-form-urlencoded",
+//     "Content-Length: ".strlen($data)
+// );
+
+// $context = array(
+//     "http" => array(
+//         "method"  => "POST",
+//         "header"  => implode("\r\n", $header),
+//         "content" => $data
+//     )
+// );
+
+//$url = "https://pt01.mul-pay.jp/link/tshop00030635/Multi/Entry";
+//echo file_get_contents($url, false, stream_context_create($context));
+
+//             $content = http_build_query($data);
+//             $options = array('http' => array(
+//             		'method' => 'POST',
+//             		'content' => $content
+//             ));
+//             $contents = file_get_contents($url, false, stream_context_create($options));
+// echo ("<pre>");
+// print_r ($contents);
+// echo ("</pre>");
+
+//exit;
+//            return header('Location:https://k01.mul-pay.jp/link/9101679755779/Multi/Entry');
+            return header('Location:'.$url);
+
+//            return $this->redirect(file_get_contents($url, false, stream_context_create($context)));
         }else{
             $this->request->data['User']['receive_address'] = $this->auth_user['User']['receive_address'];
             $this->request->data['User']['name'] = $this->auth_user['User']['name'];

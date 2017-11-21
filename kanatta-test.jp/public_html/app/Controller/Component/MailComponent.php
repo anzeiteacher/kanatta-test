@@ -52,15 +52,15 @@ class MailComponent extends Component
     public function mail($template, $vars, $mail_type, $email = null)
     {
         if($this->setting){
-            $from_mail_address = $this->setting['from_mail_address'];
-            $from    = 'Kanatta運営事務局_'.$from_mail_address;
-            $subject = $this->setting['site_name'].' - '.constant(strtoupper($template).'_SUBJECT').'♪';
+            $from    = $this->setting['from_mail_address'];
+            $from_name = 'Kanatta運営事務局';
+            $subject = $this->setting['site_name'].' - '.constant(strtoupper($template).'_SUBJECT');
             if($mail_type == 'admin'){
                 $email   = $this->setting['admin_mail_address'];
                 $subject = '[管理] '.$subject;
             }
             $vars['setting'] = $this->setting;
-            if($this->send_mail($email, $template, $from, $subject, $vars)){
+            if($this->send_mail($email, $template, $from, $from_name, $subject, $vars)){
                 return true;
             }
         }
@@ -70,14 +70,14 @@ class MailComponent extends Component
     /**
      * メール送信関数
      */
-    public function send_mail($email, $template, $from, $subject, $viewVars)
+    public function send_mail($email, $template, $from, $from_name, $subject, $viewVars)
     {
         Configure::write('debug', 0);
         try{ //ユーザ向け
             $Email = new CakeEmail();
             $Email->to($email);
             $Email->template($template);
-            $Email->from($from);
+            $Email->from(array($from => $from_name));
             $Email->subject($subject);
             $Email->viewVars($viewVars);
             $Email->send();

@@ -7755,3 +7755,67 @@ Stack Trace:
 #3 /home/kanattatest/kanatta-test.jp/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AmbassadorController), Object(CakeRequest))
 #4 /home/kanattatest/kanatta-test.jp/public_html/app/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2017-11-17 22:40:08 Error: [MissingControllerException] Controller class LinkController could not be found.
+Exception Attributes: array (
+  'class' => 'LinkController',
+  'plugin' => NULL,
+)
+Request URL: //link/mst2000012697/Multi/Entry
+Stack Trace:
+#0 /home/kanattatest/kanatta-test.jp/public_html/app/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-17 22:40:19 Error: [MissingControllerException] Controller class LinkController could not be found.
+Exception Attributes: array (
+  'class' => 'LinkController',
+  'plugin' => NULL,
+)
+Request URL: /link/mst2000012697/Multi/Entry
+Stack Trace:
+#0 /home/kanattatest/kanatta-test.jp/public_html/app/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-18 11:18:47 Error: [MissingControllerException] Controller class Https:Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Https:Controller',
+  'plugin' => NULL,
+)
+Request URL: /https:/k01.mul-pay.jp/link/9101679755779/Multi/Entry
+Stack Trace:
+#0 /home/kanattatest/kanatta-test.jp/public_html/app/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-18 11:24:27 Error: [MissingControllerException] Controller class Https:Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Https:Controller',
+  'plugin' => NULL,
+)
+Request URL: /https:/k01.mul-pay.jp/link/9101679755779/Multi/Entry
+Stack Trace:
+#0 /home/kanattatest/kanatta-test.jp/public_html/app/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-19 14:49:32 Warning: Warning (2): Header may not contain more than a single header, new line detected in [/home/kanattatest/kanatta-test.jp/public_html/lib/Cake/Network/CakeResponse.php, line 540]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+header - [internal], line ??
+CakeResponse::_sendHeader() - CORE/Cake/Network/CakeResponse.php, line 540
+CakeResponse::send() - CORE/Cake/Network/CakeResponse.php, line 436
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 795
+BackedProjectsController::add() - APP/Controller/Project/BackedProjectsController.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
+2017-11-19 22:00:10 Warning: Warning (2): Header may not contain more than a single header, new line detected in [/home/kanattatest/kanatta-test.jp/public_html/lib/Cake/Network/CakeResponse.php, line 540]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+header - [internal], line ??
+CakeResponse::_sendHeader() - CORE/Cake/Network/CakeResponse.php, line 540
+CakeResponse::send() - CORE/Cake/Network/CakeResponse.php, line 436
+Controller::redirect() - CORE/Cake/Controller/Controller.php, line 795
+BackedProjectsController::add() - APP/Controller/Project/BackedProjectsController.php, line 93
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 86
+
