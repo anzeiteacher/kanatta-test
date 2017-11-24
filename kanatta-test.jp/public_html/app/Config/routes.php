@@ -75,6 +75,9 @@ Router::connect('/make', array(
 Router::connect('/ambassador', array(
     'controller' => 'pages', 'action' => 'display', 'ambassador'
 ));
+Router::connect('/consultant', array(
+    'controller' => 'pages', 'action' => 'display', 'consultant'
+));
 //LogiAuth
 Router::connect('/login', array(
         'controller' => 'users', 'action' => 'login', 'plugin' => 'LogiAuth'
