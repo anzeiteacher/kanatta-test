@@ -193,8 +193,9 @@
     			<p>女性専用だからこそ<br>共感が得やすい</p>
     		</div>
     		<div class="point">
-        		<div class="point123">相談役の存在</div>
-        		<p>まったくわからなくても安心<br>0からアシストがある</p>
+        		<div class="point123">スタッフの無料サポート<br>実績のあるコンサルタント</div>
+        		<p>まったくわからなくても安心<br>無料でKanattaスタッフがサポート</p>
+        		<p>クラウドファンディングで実績のある方のコンサルティングのプランもあり</p>
         	</div>
         	<div class="point">
         		<div class="point123">リアルクラウドファンディング</div>
