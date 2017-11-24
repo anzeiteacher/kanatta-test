@@ -26,7 +26,7 @@
                 	自分にできるかどうか不安<br>
                 	という方はこちら<br><br>
                 	<a href="<?php echo $this->Html->url('/consult') ?>">
-    	            	<p class="select-btn2">相談役に依頼する</p>
+    	            	<p class="select-btn2">Kanattaスタッフに相談する</p>
     	            </a>
         		</div>
         	</div>
@@ -49,7 +49,7 @@
                     	自分にできるかどうか不安<br>
                     	という方はこちら<br>
                     	<a href="<?php echo $this->Html->url('/consult') ?>">
-        	            	<p class="select-btn2">相談役に依頼する</p>
+        	            	<p class="select-btn2">Kanattaスタッフに相談する</p>
         	            </a>
             		</div>
             	</li>
