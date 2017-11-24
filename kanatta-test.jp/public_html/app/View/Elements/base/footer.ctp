@@ -30,7 +30,7 @@
     						<li><a href="<?php echo $this->Html->url('/categories/12')?>">フード</a></li>
     						<li><a href="<?php echo $this->Html->url('/categories/13')?>">コミュニティ</a></li>
     						<li><a href="<?php echo $this->Html->url('/categories/19')?>">エンタメ</a></li>
-    						<li><a href="<?php echo $this->Html->url('/categories/')?>">テクノロジー</a></li>
+    						<li><a href="<?php echo $this->Html->url('/categories/21')?>">テクノロジー</a></li>
     						<li><a href="<?php echo $this->Html->url('/categories/16')?>">ファッション</a></li>
     						<li><a href="<?php echo $this->Html->url('/categories/4')?>">ビューティー</a></li>
     						<li><a href="<?php echo $this->Html->url('/categories/20')?>">アニメ</a></li>
@@ -45,15 +45,15 @@
     						<li><a href="<?php echo $this->Html->url('/categories/10')?>">本・出版</a></li>
     						<li><a href="<?php echo $this->Html->url('/categories/11')?>">音楽</a></li>
     						<li><a href="<?php echo $this->Html->url('/categories/6')?>">教育・福祉</a></li>
-    						<li><a href="<?php echo $this->Html->url('/categories/17')?>">旅</a></li>
+    						<li><a href="<?php echo $this->Html->url('/categories/8')?>">旅</a></li>
     						<li><a href="<?php echo $this->Html->url('/categories/5')?>">社会貢献</a></li>
     					</ul>
     				</div>
     				<div class="ftr_nav_1">
     					<p class="tit"><img src="/img/common/jewelry.png">プロジェクトを始める</p>
     					<ul class="txt10">
-    						<li><a href="#">自分でつくる</a></li>
-    						<li><a href="#">アドバイザーに依頼する</a></li>
+    						<li><a href="<?php echo $this->Html->url('/make') ?>">自分でつくる</a></li>
+    						<li><a href="<?php echo $this->Html->url('/consult') ?>">Kanattaスタッフに相談する</a></li>
     						<li><a href="#">ガイドライン</a></li>
     					</ul>
     				</div>
