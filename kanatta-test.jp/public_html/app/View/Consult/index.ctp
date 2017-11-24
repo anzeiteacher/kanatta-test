@@ -2,7 +2,7 @@
 
 <div class="login_box_wrap">
     <div class="login_box">
-        <h3>相談役に依頼する</h3>
+        <h3>Kanattaスタッフに相談する</h3>
 
         <?php echo $this->Form->create('Consult', array(
                 'inputDefaults' => array('div' => false, 'class' => 'form-control')
