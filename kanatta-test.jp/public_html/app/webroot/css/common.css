@@ -728,3 +728,8 @@ body #wrap{
 	    margin: 3px 0px;
 	}
 }
+
+/*************** textarea *****************/
+textarea.form-control{
+    resize: vertical;
+}

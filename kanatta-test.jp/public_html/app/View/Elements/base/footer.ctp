@@ -61,11 +61,12 @@
     					<p class="tit"><img src="/img/common/jewelry.png">Kanattaについて</p>
     					<ul class="txt10">
     						<li><a href="<?php echo $this->Html->url('/about') ?>">Kanattaとは？</a></li>
-    						<li><a href="#">よくある質問</a></li>
+    						<li><a href="<?php echo $this->Html->url('/question') ?>">よくある質問</a></li>
     						<li><a href="<?php echo $this->Html->url('/rule') ?>">利用規約</a></li>
     						<li><a href="<?php echo $this->Html->url('/policy') ?>">プライバシーポリシー</a></li>
     						<li><a href="<?php echo $this->Html->url('/tokutei') ?>">特定商取引法</a></li>
     						<li><a href="<?php echo $this->Html->url('http://air-works.jp/') ?>">会社情報</a></li>
+    						<li><a href="<?php echo $this->Html->url('/contact') ?>">お問い合わせ</a></li>
     					</ul>
     				</div>
     			</div>
