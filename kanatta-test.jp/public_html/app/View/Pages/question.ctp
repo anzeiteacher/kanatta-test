@@ -38,10 +38,9 @@
     	<input type="checkbox" id="inbox5" class="on-off">
     	<div>
     		・クレジットカード決済の場合<br>
-            支援金の決済は行われません。<br><br>
-
+            　→支援金の決済は行われません。<br><br>
             ・コンビニ決済や銀行振込の場合<br>
-            口座に返金致します。<br>
+            　→口座に返金致します。<br>
     	</div>
     	<label for="inbox6">誰でも申し込むことはできますか?</label>
     	<input type="checkbox" id="inbox6" class="on-off">
@@ -84,7 +83,6 @@
     	<div>
         	・支援募集終了月の15日までに達成した場合 <br>
             　→翌月の5日までにお支払いいたします。 <br><br>
-            　
             ・支援募集終了月の15日以降に達成した場合<br>
             　→翌月20日までにお支払いいたします。<br>
     	</div>
@@ -97,7 +95,7 @@
     	<label for="inbox13">対応しているブラウザは何ですか？</label>
     	<input type="checkbox" id="inbox13" class="on-off">
     	<div>
-        	Chrome、Safari、IE、Firefoxは動作確認しています。<br>
+        	Chrome、Safari、IE、Firefoxです。<br>他のブラウザは動作を確認していないため、正常に動かない場合があります。<br>
     	</div>
     </div>
 </div>
@@ -116,7 +114,7 @@
     cursor: pointer;
     width: 80%;
     margin: 30px auto 14px auto;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .box input[type="checkbox"].on-off,
@@ -132,7 +130,7 @@
 	margin: 0 0 20px;
     width: 77%;
     margin: 20px auto;
-    font-size: 14px;
+    font-size: 16px;
 }
 .guide-kanako{
     position: fixed;
