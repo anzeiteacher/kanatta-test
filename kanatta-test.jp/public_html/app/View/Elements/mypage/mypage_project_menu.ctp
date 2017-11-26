@@ -22,7 +22,6 @@
 
 <?php $this->start('script') ?>
 <script>
-	//活動報告の場合はsub_menuを表示させる
     $('body').on('click', function (e) {
         if (!$(e.target).is('.report_menu')) {
             if (!$(e.target).is('.report_sub_menu') && !$(e.target).closest('.report_sub_menu').size()) {

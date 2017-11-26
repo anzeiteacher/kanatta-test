@@ -59,6 +59,9 @@
             <div class="form-group">
                 <?php echo $this->Form->input('url1', array('label' => 'URL1')); ?>
             </div>
+            <div class="form-group">
+                <?php echo $this->Form->input('url1', array('label' => 'URL1')); ?>
+            </div>
 
             <div class="form-group">
                 <?php echo $this->Form->input('url2', array('label' => 'URL2')); ?>

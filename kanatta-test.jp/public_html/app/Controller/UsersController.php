@@ -131,7 +131,7 @@ class UsersController extends AppController
      */
     public function mypage()
     {
-        $this->log('users mypage'); //todo del
+        //$this->log('users mypage'); //todo del
         $this->layout = 'mypage';
         $this->set('mypage_top', true);
         $this->set('menu_mode', 'backed'); //マイページのサブメニュー用

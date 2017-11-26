@@ -63,12 +63,14 @@
     <?php if(!empty($pjs_by_cat)):?>
     <?php foreach($pjs_by_cat as $idx => $pjs):?>
         <div class="top_content" name="<?php echo $idx+1 ?>">
+            <div class="wrap-s">
                 <h3><span class="el-icon-tag"></span> <?php echo h($pjs['name'])?></h3>
                 <div class="clearfix grid_container">
                     <?php foreach($pjs['pj'] as $project):?>
                         <?php echo $this->element('project_box/project_box_for_normal', compact('project')) ?>
                     <?php endforeach;?>
                 </div>
+             </div>
         </div>
     <?php endforeach;?>
     <?php endif;?>

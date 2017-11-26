@@ -6,9 +6,9 @@
 
     <div class="pay_content clearfix">
         <?php if($this->Project->chk_pay_monthly($pj)):?>
-            <h3>支援コメントを入力してください！</h3>
+            <h3>応援コメントを入力してください</h3>
         <?php else:?>
-            <h3>支援金額と支援コメントを入力してください！</h3>
+            <h3>リターンをお選びください</h3>
         <?php endif;?>
 
         <?php echo $this->Form->create('BackedProject', array(
@@ -16,15 +16,24 @@
                         'div' => false, 'class' => 'form-control'
                 )
         )) ?>
+        <?php if($this->Project->chk_pay_monthly($pj)):?>
+        <?php else:?>
+        	<div class="form-group">
+            <label>リターンを選ぶ</label>
+        	</div>
+        <?php endif;?>
 
-        <div class="form-group">
-            <label>支援金額</label>
-            <?php if($this->Project->chk_pay_monthly($pj)):?>
-                <br>
-                <h4>
-                    <?php echo number_format(h($backing_level['BackingLevel']['invest_amount']))?>円／月
-                </h4>
-            <?php else:?>
+        <?php if($this->Project->chk_pay_monthly($pj)):?>
+            <div class="form-group">
+            <label>支援額を入力してください</label>
+                    <br>
+                    <h4>
+                        <?php echo number_format(h($backing_level['BackingLevel']['invest_amount']))?>円／月
+                    </h4>
+            </div>
+        <?php else:?>
+            <div class="form-group">
+                <label>支援額を入力してください</label>
                 <div class="input-group">
                     <?php echo $this->Form->input('invest_amount', array(
                             'value' => $backing_level['BackingLevel']['invest_amount'], 'label' => false,
@@ -36,12 +45,13 @@
                 ※ <?php echo number_format($backing_level['BackingLevel']['invest_amount']) ?>
                     円以上を入力してください
                 </span>
-            <?php endif;?>
-        </div>
+                <p style="margin-top:15px;,color:red;,font-weight:bolder;">上乗せ支援をしてもリターンの内容には変更はありません。</p>
+            </div>
+        <?php endif;?>
 
         <div class="form-group">
             <?php echo $this->Form->input('comment', array(
-                    'type' => 'textarea', 'rows' => 4, 'label' => '支援コメント'
+                    'type' => 'textarea', 'rows' => 4, 'label' => '応援コメント'
             )) ?>
         </div>
 
