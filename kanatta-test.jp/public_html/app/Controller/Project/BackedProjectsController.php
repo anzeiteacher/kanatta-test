@@ -35,13 +35,60 @@ class BackedProjectsController extends AppController
                     return $this->Session->setFlash('登録できませんでした。'.OSORE);
                 }
             }
+//KANATTA-35,36_START
+//            return $this->redirect(array('action' => 'card'));
             $this->_set_backed_info_to_session($project_id, $backing_level_id);
-            return $this->redirect(array('action' => 'card'));
+
+            list($pj, $bl, $bp) = $this->_card_init();
+            $url = $this->set_payment($pj, $bl, $bp);
+//KANATTA-35,36_END
+
+            return header('Location:'.$url);
+
         }else{
             $this->request->data['User']['receive_address'] = $this->auth_user['User']['receive_address'];
             $this->request->data['User']['name'] = $this->auth_user['User']['name'];
         }
     }
+
+//KANATTA-36_START
+    /**
+     * リンクタイプ式のパラメータ格納
+     */
+    public function set_payment($pj, $bl, $bp)
+    {
+
+             $shop_id = 'tshop00030635';//test_Shop
+             $pass = '6re8enmt';//test_pass
+             $ret_url = 'http://kanatta-test.jp/mypage';//test_retURL
+             $cancel_url = 'http://kanatta-test.jp/mypage';//test_CancelURL
+//              $shop_id = '9101679755779';//本番Shop
+//              $pass = 'h3xryw4f';//本番pass
+//              $ret_url = 'https://kanatta-lady.jp/mypage';//本番retURL
+//              $cancel_url = 'https://kanatta-lady.jp/mypage';//本番_CancelURL
+             $user_id = $this->Auth->user('id');
+             $pj_id = $bp['pj_id'];
+             $order_id = $this->BackedProject->get_order_id($pj_id, $user_id);
+             $amount = $this->request->data['BackedProject']['invest_amount'];
+             $datetime = date('YmdHis');
+             $url = 'https://pt01.mul-pay.jp/link/'.$shop_id.'/Multi/Entry';
+             $url .= '?ShopID='. $shop_id;
+             $url .= '&OrderID='. $order_id;
+             $url .= '&Amount='.$amount.'&DateTime=' .$datetime;
+
+             $str = $shop_id.'|'.$order_id.'|'.$amount.'||'.$pass.'|'.$datetime;
+             //MD5変換
+             $url .= '&ShopPassString='.md5($str);
+
+             $url .= '&RetURL='.$ret_url;
+             $url .= '&CancelURL='.$cancel_url;
+             $url .= '&UseCredit=1&JobCd=AUTH';
+             $url .= '&UseCvs=1&ReceiptsDisp11=1111111111&ReceiptsDisp12=0000-000-111&ReceiptsDisp13=09:00-20:00';
+             $url .= '&UseVirtualaccount=1&VaTradeDays=7';
+
+            return $url;
+    }
+    //KANATTA-36_END
 
     /**
      * project、backingLevelの有効性チェック
