@@ -102,6 +102,9 @@
     </div>
 </div>
 <style>
+.about_box h1{
+    font-size: 24px;
+}
 .about_box.clear{
     background: none;
 }
@@ -113,7 +116,7 @@
     cursor: pointer;
     width: 80%;
     margin: 30px auto 14px auto;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .box input[type="checkbox"].on-off,
@@ -138,7 +141,7 @@
     z-index: 99;
 }
 .guide-kanako img{
-    width: 150px;
+    width: 180px;
 }
 @media only screen and (max-width : 749px) {
     .box label {
