@@ -115,6 +115,8 @@
     width: 80%;
     margin: 30px auto 14px auto;
     font-size: 18px;
+    position: relative;
+    padding-right: 20px;
 }
 
 .box input[type="checkbox"].on-off,
@@ -141,12 +143,43 @@
 .guide-kanako img{
     width: 180px;
 }
+
+.box label::before,
+.box label::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    content: "";
+    vertical-align: middle;
+}
+.box label::before{
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #e07188;
+    right: 10px;
+}
+
+.box label::after{
+    right: 14px;
+    top: 9px;
+    box-sizing: border-box;
+    width: 3px;
+    height: 3px;
+    border: 6px solid transparent;
+    border-top: 9px solid #fff;
+}
+
 @media only screen and (max-width : 749px) {
     .box label {
         padding: 8px;
         margin-bottom: 4px;
         margin: 25px auto 12px auto;
         font-size: 13px;
+        padding-right: 20px;
     }
     .guide-kanako img {
         width: 120px;
@@ -155,6 +188,17 @@
         width: 77%;
         margin: 10px auto;
         font-size: 12px;
+    }
+    .box label::before{
+        width: 15px;
+        height: 15px;
+    }
+
+    .box label::after{
+        right: 13px;
+        top: 7px;
+        border: 5px solid transparent;
+        border-top: 7px solid #fff;
     }
 }
 </style>
