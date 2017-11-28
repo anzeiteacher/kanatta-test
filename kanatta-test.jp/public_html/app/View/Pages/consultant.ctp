@@ -117,6 +117,13 @@
 </div>
 
 <style>
+#contents{
+    max-width: 1200px;
+    margin: 0 20px;
+}
+.cons ul{
+    padding-left: 0px;
+}
 .cons ul li{
     width: 45%;
     display: inline-block;
@@ -130,7 +137,7 @@
 
 .about_box_wrap.amb{
     text-align: center;
-    padding: 30px;
+    padding: 10px;
 }
 .cons_box{
     margin: auto;
@@ -138,11 +145,11 @@
     margin: 50px 25px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
-    padding: 10px 10px 30px 10px;
-    font-size: 16px;
+    padding: 10px 15px 30px 15px;
+    font-size: 15px;
 }
 .author{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
 }
 .author img{
@@ -152,26 +159,48 @@
 }
 .cons_box .detail{
     text-align: left;
-    margin-left: 6%;
     margin-top: 20px;
 }
 .cons_box .detail p{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
 }
 .amb_top_description{
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 40px;
 }
+.amb_top_description p{
+    width: 90%;
+    margin: auto;
+}
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 601px) and (max-width: 1000px) {
     .amb_top_img{
         width: 90%;
         min-width: 290px;
     }
+    #contents{
+        margin: 0px;
+    }
+    .cons_box {
+        margin: 50px 20px;
+        font-size: 14px;
+    }
+    .cons_box .detail p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .cons ul li {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 600px) {
+    .amb_top_img{
+        width: 100%;
+        min-width: 290px;
+    }
     .amb_top_description{
         font-size: 14px;
     }
@@ -179,9 +208,30 @@
         font-size: 14px;
     }
     .author{
-        font-size: 16px;
+        font-size: 14px;
     }
-
+    #contents{
+        margin: 0px;
+    }
+    .cons_box {
+        margin: 50px 20px;
+        font-size: 12px;
+        padding: 0px 10px 20px 10px;
+    }
+    .cons_box .detail p {
+        font-size: 14px;
+    }
+    .cons_box .author p{
+        margin: 10px;
+    }
+    .about_box_wrap.amb{
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .cons_box {
+        margin: 35px 0px;
+    }
 }
 
 </style>
