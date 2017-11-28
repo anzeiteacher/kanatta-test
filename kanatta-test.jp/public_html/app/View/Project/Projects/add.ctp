@@ -1,5 +1,7 @@
 <?php echo $this->Html->css('mypage', null, array('inline' => false)) ?>
 <?php echo $this->Html->script('client_resize', array('inline' => false)) ?>
+<?php echo $this->Html->script('jquery-ui.min', array('inline' => false)) ?>
+<?php echo $this->Html->script('pj_contents', array('inline' => false)) ?>
 
 <h4>プロジェクトの作成</h4>
 
@@ -8,7 +10,8 @@
 <div class="content clearfix">
     <div class="project_box img-rounded">
         <?php echo $this->Form->create('Project', array(
-            'type' => 'file', 'inputDefaults' => array('div' => false, 'class' => 'form-control')
+            'type'          => 'file',
+            'inputDefaults' => array('class' => 'form-control'),
         )); ?>
         <div class="clearfix">
             <div class="col-md-6">
@@ -69,14 +72,26 @@
                     )) ?>
                     <div class="error-message" id="error-contact"></div>
                 </div>
-                <div class="form-group" style="margin-left:20px;">
-                    <div class="checkbox">
-                        <?php echo $this->Form->input('rule', array(
-                                'type' => 'checkbox', 'label' => false, 'class' => ''
-                        )) ?>
-                        <?php echo $this->Html->link('規約', '/rule', array('target' => '_blank')) ?>に同意する <span class="label label-danger">必須</span><br>
-                        <div class="error-message" id="error-rule"></div>
-                    </div>
+            </div>
+        </div>
+        <!-- プロジェクト詳細 -->
+        <div class="col-md-12">
+            <label>プロジェクト詳細</label>
+            <?php echo $this->element('project_contents/text_btn_menu') ?>
+            <div class="form-group">
+                <?php echo $this->Form->hidden('ProjectContent.0.type', array('value' => 'text')); ?>
+                <?php echo $this->Form->input('ProjectContent.0.txt_content', array(
+                    'type' => 'textarea', 'rows' => 5, 'label' => false, 'class' => 'form-control text_content',
+                )) ?>
+                <div class="error-message" id="error-contact"></div>
+            </div>
+            <div class="form-group" style="margin-left:20px;">
+                <div class="checkbox">
+                    <?php echo $this->Form->input('rule', array(
+                        'type' => 'checkbox', 'label' => false, 'class' => '', 'div' => false,
+                    )) ?>
+                    <?php echo $this->Html->link('規約', '/rule', array('target' => '_blank')) ?>に同意する <span class="label label-danger">必須</span><br>
+                    <div class="error-message" id="error-rule"></div>
                 </div>
             </div>
         </div>
