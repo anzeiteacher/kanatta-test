@@ -219,7 +219,7 @@ class ProjectsController extends AppController
             }
             $this->Ring->bindUp('Project');
             $this->Project->create();
-            if($this->Project->save($this->request->data, true, $this->_save_fields())){
+            if ($this->Project->saveAll($this->request->data, $this->_save_fields())) {
                 $this->Mail->pj_create($this->auth_user, $this->Project->read(), 'admin');
                 $this->Mail->pj_create($this->auth_user, $this->Project->read(), 'user');
                 $this->Session->setFlash('プロジェクトの新規作成を受け付けました。サイト管理者からの連絡をいましばらくお待ちください。');
@@ -276,9 +276,16 @@ class ProjectsController extends AppController
 
     private function _save_fields()
     {
-        $fields = array('project_name', 'category_id', 'goal_amount', 'goal_backers',
-                        'pay_pattern', 'description', 'return', 'contact',
-                        'rule', 'user_id', 'created', 'modified', 'pic');
+        $fields = array(
+            'Project' => array(
+                'project_name', 'category_id', 'goal_amount', 'goal_backers',
+                'pay_pattern', 'description', 'return', 'contact',
+                'rule', 'user_id', 'created', 'modified', 'pic',
+            ),
+            'ProjectContent' => array(
+                 'open', 'type', 'txt_content', 'movie_type', 'movie_code',
+            ),
+        );
         if($this->setting['cat_type_num'] == 2){
             $fields[] = 'area_id';
         }
