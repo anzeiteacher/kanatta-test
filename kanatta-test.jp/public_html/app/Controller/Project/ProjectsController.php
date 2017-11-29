@@ -243,11 +243,21 @@ class ProjectsController extends AppController
      */
     public function add_return($id = null)
     {
-        $project = $this->Project->get_pj_by_id($id, array('BackingLevel'));
+        $this->layout = 'mypage';
+        $session_key = hash('sha256', "project_user_{$this->Auth->user('id')}");
+
+        if (!empty($id)) {
+            $project = $this->Project->get_pj_by_id($id, array('BackingLevel'));
+        } else {
+            // セッションから取得
+            $project = $this->Session->read($session_key);
+        }
+
         if (empty($project)) {
             $this->log("project (id={$id}) is not found.", LOG_DEBUG);
             $this->redirect('/');
         }
+
         // 本人のみ編集可
         if ($project['Project']['user_id'] != $this->Auth->user('id')) {
             $this->log("user (user_id={$this->Auth->user('id')}) cannot edit project (id={$id}) of user (user_id={$project['Project']['user_id']}).", LOG_DEBUG);
@@ -260,17 +270,12 @@ class ProjectsController extends AppController
 
         if ($this->request->is('post') || $this->request->is('put')) {
             $max_level = $this->request->data['Project']['max_back_level'];
-            $this->Project->begin();
-            $this->Project->id = $id;
-            if (!$this->Project->saveField('max_back_level', $max_level)) {
-                $this->Project->rollback();
-                $this->Session->setFlash('プロジェクトを保存できませんでした。');
-            }
-            if ($this->Project->BackingLevel->edit_backing_level($this->request->data['BackingLevel'], $id)) {
-                $this->Project->commit();
-                $this->Session->setFlash('プロジェクトを保存しました');
-                $this->redirect($this->request->here);
-            }
+            $project['Project']['max_back_level'] = $max_level;
+            $project['BackingLevel'] = $this->request->data['BackingLevel'];
+
+            // セッションに保存
+            $this->Session->write($session_key, $project);
+            $this->redirect(array('action' => 'confirm', $id));
         } else {
             $this->request->data = $project;
         }
