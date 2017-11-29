@@ -207,41 +207,33 @@ class ProjectsController extends AppController
         $this->set('categories', $this->Project->Category->get_list());
         $this->set('areas', $this->Area->get_list());
         $this->_chk_email();
-        if($this->request->is('post') || $this->request->is('put')){
+
+        if ($this->request->is('post') || $this->request->is('put')) {
             $this->autoRender = false;
             $this->request->data['Project']['user_id'] = $this->Auth->user('id');
             $this->request->data['Project']['pic'] = null;
-            if(!empty($this->request->params['form']['pic'])){
+            if (!empty($this->request->params['form']['pic'])) {
                 $this->request->data['Project']['pic'] = $this->request->params['form']['pic'];
             }
-            if(! $this->_chk_add_input($this->request->data)){
+            if (!$this->_chk_add_input($this->request->data)) {
                 return json_encode(array('status' => 0, 'msg' => '必須項目を入力してください'));
             }
-            $this->Ring->bindUp('Project');
-            $this->Project->create();
-            if ($this->Project->saveAll($this->request->data, $this->_save_fields())) {
-                //$this->Mail->pj_create($this->auth_user, $this->Project->read(), 'admin');
-                //$this->Mail->pj_create($this->auth_user, $this->Project->read(), 'user');
 
-                // 支援パターン追加画面にリダイレクト
-                $pj_id = $this->Project->getLastInsertId();
-                $redirect_url = array("/projects/add_return/{$pj_id}");
+            // セッションに保存
+            $session_key = hash('sha256', "project_user_{$this->Auth->user('id')}");
+            $this->Session->write($session_key, $this->request->data);
 
+            if ($this->Session->write($session_key, $this->request->data)) {
                 return json_encode(array(
                     'status'       => 1,
-                    'redirect_url' => $redirect_url,
-                    'msg'          => 'プロジェクトの新規作成を受け付けました。サイト管理者からの連絡をいましばらくお待ちください。'
+                    'msg'          => 'プロジェクトを保存しました。'
                 ));
-            }else{
-                if(!empty($this->Project->validationErrors)){
-                    $errors = $this->Project->validationErrors;
-                    return json_encode(array(
-                        'status' => 0, 'msg' => '恐れ入りますが、入力内容をご確認の上、再度お試しください。', 'errors' => $errors
-                    ));
-                }else{
-                    return json_encode(array('status' => 0, 'msg' => 'プロジェクトの登録が失敗しました。'.OSORE));
-                    $this->log('プロジェクト投稿エラー：ユーザーID '.$this->Auth->user('id'));
-                }
+            } else {
+                return json_encode(array(
+                    'status' => 0,
+                    'msg'    => 'エラーが発生しました。恐れ入りますが、再度お試しください。'
+                ));
+                $this->log("couldn't write to session_key {$session_key} for user (id=$this->Auth->user('id'))", LOG_DEBUG);
             }
         }
     }
