@@ -250,7 +250,15 @@ class ProjectsController extends AppController
             $this->log("project (id={$id}) is not found.", LOG_DEBUG);
             $this->redirect('/');
         }
-        $this->set(compact('project'));
+        // 本人のみ編集可
+        if ($project['Project']['user_id'] != $this->Auth->user('id')) {
+            $this->log("user (user_id={$this->Auth->user('id')}) cannot edit project (id={$id}) of user (user_id={$project['Project']['user_id']}).", LOG_DEBUG);
+            $this->redirect('/');
+        }
+        // 公開後のプロジェクトは編集不可 追加のみ
+        $disabled = !empty($project['Project']['opened']) ? true : false;
+
+        $this->set(compact('project', 'disabled'));
 
         if ($this->request->is('post') || $this->request->is('put')) {
             $max_level = $this->request->data['Project']['max_back_level'];
