@@ -363,6 +363,9 @@ function save_form_data_redirect(t, e, url, redirect_url, not_empty) {
             t.hide();
         },
         success: function (data) {
+            if (data.redirect_url) {
+                redirect_url = data.redirect_url;
+            }
             if (data.status) {
                 location.href = redirect_url;
             } else {
