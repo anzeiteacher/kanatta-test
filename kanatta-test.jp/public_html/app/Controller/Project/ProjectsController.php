@@ -220,11 +220,17 @@ class ProjectsController extends AppController
             $this->Ring->bindUp('Project');
             $this->Project->create();
             if ($this->Project->saveAll($this->request->data, $this->_save_fields())) {
-                $this->Mail->pj_create($this->auth_user, $this->Project->read(), 'admin');
-                $this->Mail->pj_create($this->auth_user, $this->Project->read(), 'user');
-                $this->Session->setFlash('プロジェクトの新規作成を受け付けました。サイト管理者からの連絡をいましばらくお待ちください。');
+                //$this->Mail->pj_create($this->auth_user, $this->Project->read(), 'admin');
+                //$this->Mail->pj_create($this->auth_user, $this->Project->read(), 'user');
+
+                // 支援パターン追加画面にリダイレクト
+                $pj_id = $this->Project->getLastInsertId();
+                $redirect_url = array("/projects/add_return/{$pj_id}");
+
                 return json_encode(array(
-                    'status' => 1, 'msg' => 'プロジェクトの新規作成を受け付けました。サイト管理者からの連絡をいましばらくお待ちください。'
+                    'status'       => 1,
+                    'redirect_url' => $redirect_url,
+                    'msg'          => 'プロジェクトの新規作成を受け付けました。サイト管理者からの連絡をいましばらくお待ちください。'
                 ));
             }else{
                 if(!empty($this->Project->validationErrors)){
