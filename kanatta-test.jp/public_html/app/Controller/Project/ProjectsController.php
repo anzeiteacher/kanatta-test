@@ -240,6 +240,36 @@ class ProjectsController extends AppController
         }
     }
 
+    /**
+     * リターン追加
+     */
+    public function add_return($id = null)
+    {
+        $project = $this->Project->get_pj_by_id($id, array('BackingLevel'));
+        if (empty($project)) {
+            $this->log("project (id={$id}) is not found.", LOG_DEBUG);
+            $this->redirect('/');
+        }
+        $this->set(compact('project'));
+
+        if ($this->request->is('post') || $this->request->is('put')) {
+            $max_level = $this->request->data['Project']['max_back_level'];
+            $this->Project->begin();
+            $this->Project->id = $id;
+            if (!$this->Project->saveField('max_back_level', $max_level)) {
+                $this->Project->rollback();
+                $this->Session->setFlash('プロジェクトを保存できませんでした。');
+            }
+            if ($this->Project->BackingLevel->edit_backing_level($this->request->data['BackingLevel'], $id)) {
+                $this->Project->commit();
+                $this->Session->setFlash('プロジェクトを保存しました');
+                $this->redirect($this->request->here);
+            }
+        } else {
+            $this->request->data = $project;
+        }
+    }
+
     private function _chk_email()
     {
         if(empty($this->auth_user['User']['email'])){
