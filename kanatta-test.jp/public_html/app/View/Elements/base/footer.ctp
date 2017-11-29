@@ -54,7 +54,12 @@
     					<ul class="txt10">
     						<li><a href="<?php echo $this->Html->url('/make') ?>">自分でつくる</a></li>
     						<li><a href="<?php echo $this->Html->url('/consult') ?>">Kanattaスタッフに相談する</a></li>
-    						<li><a href="#">ガイドライン</a></li>
+    						<li><a href="<?php echo $this->Html->url('/guideline') ?>">ガイドライン</a></li>
+    					</ul>
+    					<p class="tit"><img src="/img/common/jewelry.png">Kanattaの応援団</p>
+    					<ul class="txt10">
+    						<li><a href="<?php echo $this->Html->url('/ambassador') ?>">アンバサダー</a></li>
+    						<li><a href="<?php echo $this->Html->url('/consultant') ?>">コンサルタント</a></li>
     					</ul>
     				</div>
     				<div class="ftr_nav_1">
