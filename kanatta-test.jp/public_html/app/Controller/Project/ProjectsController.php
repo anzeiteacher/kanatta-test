@@ -6,7 +6,7 @@ class ProjectsController extends AppController
     public $uses = array(
         'Project', 'Partner', 'Toppage', 'Partner', 'Area',
         'FavouriteProject', 'Report', 'Setting', 'ReportContent',
-        'BackedProject'
+        'BackedProject', 'BackingLevel',
     );
     public $components = array('Mail');
     public function beforeFilter()
@@ -278,6 +278,23 @@ class ProjectsController extends AppController
             $max_level = $this->request->data['Project']['max_back_level'];
             $project['Project']['max_back_level'] = $max_level;
             $project['BackingLevel'] = $this->request->data['BackingLevel'];
+
+            if (empty($project['BackingLevel'])) {
+                $this->Session->setFlash('支援パターンを入力してください。');
+                return;
+            }
+            // バリデーション
+            $errors = array();
+            foreach ($project['BackingLevel'] as $i => $row) {
+                $this->BackingLevel->set($row);
+                if (!$this->BackingLevel->validates()) {
+                    $errors[$i] = $this->BackingLevel->validationErrors;
+                }
+            }
+            if (!empty($errors)) {
+                $this->BackingLevel->validationErrors = $errors;
+                return;
+            }
 
             // セッションに保存
             $this->Session->write($session_key, $project);
