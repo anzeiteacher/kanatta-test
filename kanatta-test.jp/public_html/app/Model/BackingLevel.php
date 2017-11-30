@@ -11,15 +11,32 @@ class BackingLevel extends AppModel
      * Validation rules
      */
     public $validate = array(
-        'level name' => array(
-            'notblank' => array('rule' => array('notblank'))
+       'name' => array(
+            'notblank' => array(
+                'rule'    => array('notblank'),
+                'message' => array('支援パターン名を入力してください。'),
+             )
         ),
         'invest_amount' => array(
-            'notblank' => array('rule' => array('notblank')),
-            'numeric' => array('rule' => array('numeric')),
+            'notblank' => array(
+                'rule'    => array('notblank'),
+                'message' => array('最低支援額を入力してください。'),
+            ),
+            'numeric' => array(
+                'rule' => array('numeric'),
+                'message' => array('最低支援額は数値を入力してください。'),
+            ),
+            'range' => array(
+                'rule'       => array('range', 2999, 2900001),
+                'message'    => '最低支援額は3000〜2900000円の間で入力してください。',
+                'allowEmpty' => true,
+            ),
         ),
         'return_amount' => array(
-            'notblank' => array('rule' => array('notblank')),
+            'notblank' => array(
+                'rule' => array('notblank'),
+                'message' => array('リターン内容を入力してください。'),
+            ),
         ),
     );
 
