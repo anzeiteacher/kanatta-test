@@ -215,8 +215,14 @@ class ProjectsController extends AppController
             if (!empty($this->request->params['form']['pic'])) {
                 $this->request->data['Project']['pic'] = $this->request->params['form']['pic'];
             }
-            if (!$this->_chk_add_input($this->request->data)) {
-                return json_encode(array('status' => 0, 'msg' => '必須項目を入力してください'));
+
+            // バリデーション
+            $this->Project->set($this->request->data);
+            if (!$this->Project->validates()) {
+                return json_encode(array(
+                    'status' => 0, 'msg' => '入力内容を確認してください。',
+                    'errors' => $this->Project->validationErrors,
+                ));
             }
 
             // セッションに保存
