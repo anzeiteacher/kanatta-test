@@ -287,6 +287,43 @@ class ProjectsController extends AppController
         }
     }
 
+    /**
+     * 確認
+     */
+    public function confirm($id = null) {
+        $this->layout = 'mypage';
+        $this->set('categories', $this->Project->Category->get_list());
+
+        if (!empty($id)) {
+            $project = $this->Project->get_pj_by_id($id, array('BackingLevel'));
+        } else {
+            // セッションから取得
+            $session_key = hash('sha256', "project_user_{$this->Auth->user('id')}");
+            $project = $this->Session->read($session_key);
+        }
+
+        if (empty($project)) {
+            $this->log("project (id={$id}) is not found.", LOG_DEBUG);
+            $this->redirect('/');
+        }
+
+        $this->set(compact('project'));
+
+        if ($this->request->is('post') || $this->request->is('put')) {
+            $this->Ring->bindUp('Project');
+            if ($this->Project->saveAll($project, array('deep' => true))) {
+                $this->Session->setFlash("プロジェクトの新規作成を受け付けました。サイト管理者からの連絡をいましばらくお待ちください。");
+                $this->Session->delete($session_key);
+
+                $this->Mail->pj_create($this->auth_user, $this->Project->read(), 'admin');
+                $this->Mail->pj_create($this->auth_user, $this->Project->read(), 'user');
+            } else {
+                $this->log($this->Project->validationErrors, LOG_DEBUG);
+                $this->Session->setFlash("プロジェクトの登録ができませんでした。恐れ入りますが、入力内容をご確認の上、再度お試しください。");
+            }
+        }
+    }
+
     private function _chk_email()
     {
         if(empty($this->auth_user['User']['email'])){
