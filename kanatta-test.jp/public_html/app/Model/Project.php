@@ -41,7 +41,12 @@ class Project extends AppModel
                 'rule' => array('naturalNumber'),
                 'message' => '目標金額は数値を入力してください。',
                 'allowEmpty' => true,
-            )
+            ),
+            'range' => array(
+                'rule'       => array('range', 10000, 10000000),
+                'message'    => '目標金額は10000〜10000000円の間で入力してください。',
+                'allowEmpty' => true,
+            ),
         ),
         'goal_backers' => array(
             'naturalNumber' => array(
