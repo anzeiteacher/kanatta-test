@@ -18,17 +18,26 @@ class Project extends AppModel
     public $bindFields = array();
     public $validate = array(
         'pic' => array(
-            'allowExtention' => array(
-                'rule' => array(
-                    'checkExtension', array(
-                        'jpg', 'jpeg', 'png', 'gif'
-                    )
-                ), 'message' => '拡張子が無効です', 'allowEmpty' => true
-            ), 'fileSize' => array(
-                'rule' => array(
-                    'checkFileSize', '1MB'
-                ), 'message' => 'ファイルサイズが1MBを超過しています'
-            ), 'illegalCode' => array('rule' => array('checkIllegalCode'),)
+            'checkExtension' => array(
+                'rule' => array('checkExtension', array(
+                    'jpg', 'jpeg', 'png', 'gif')
+                ),
+                'message' => array('jpg・jpeg・png・gif画像をアップロードしてください。')
+            ),
+            'size' => array(
+                'maxFileSize' => array(
+                    'rule'    => array('fileSize', '<=', '1MB'),
+                    'message' => array('画像サイズの上限は1MBです。')
+                ),
+                'minFileSize' => array(
+                    'rule'     => array('fileSize', '>', 0),
+                    'message' => array('画像サイズは0B以上必要です。')
+                ),
+
+            ),
+            'illegalCode' => array(
+                'rule' => array('checkIllegalCode'),
+            ),
         ), 'project_name' => array(
             'notblank' => array(
                 'rule' => array('notblank'),
