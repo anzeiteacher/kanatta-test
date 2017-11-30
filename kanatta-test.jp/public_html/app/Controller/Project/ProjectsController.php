@@ -341,6 +341,13 @@ class ProjectsController extends AppController
         }
     }
 
+    /**
+     * 完了
+     */
+    public function done() {
+        $this->layout = 'mypage';
+    }
+
     private function _chk_email()
     {
         if(empty($this->auth_user['User']['email'])){
