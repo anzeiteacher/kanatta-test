@@ -762,7 +762,9 @@ form {
 }
 .progressbar li:before {
     width: 30px;
+    min-width: 30px;
     height: 30px;
+    min-height: 30px;
     content: counter(step);
     counter-increment: step;
     line-height: 26px;
@@ -789,3 +791,17 @@ form {
 .progressbar li.active + li:after {
     background-color: #55b776;
 }
+@media screen and (max-width: 320px) {
+    .progressbar li {
+        font-size: 9px;
+    }
+    .progressbar li:before {
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+        min-height: 24px;
+        line-height: 21px;
+        border: 1px solid #aaa;
+    }
+}
+
