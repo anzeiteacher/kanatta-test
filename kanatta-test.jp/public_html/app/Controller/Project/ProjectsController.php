@@ -245,8 +245,13 @@ class ProjectsController extends AppController
                 'errors' => $this->Project->validationErrors,
             ));
         }
+
+        $data = $this->request->data;
+        // セッションに保存されているデータがあれば追加
+        if ($this->Session->check($session_key))
+            $data += $this->Session->read($session_key);
         // セッションに保存
-        if ($this->Session->write($session_key, $this->request->data + $this->Session->read($session_key))) {
+        if ($this->Session->write($session_key, $data)) {
             return json_encode(array(
                 'status'       => 1,
                 'msg'          => 'プロジェクトを保存しました。'
