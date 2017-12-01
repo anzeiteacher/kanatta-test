@@ -97,8 +97,8 @@
         <?php endforeach; ?>
     </table>
 
-<div id="btn-edit-return" class="col-xs-offset-1 col-xs-10" style="margin-top:20px;">
-    <?php echo $this->Form->submit('登録', array(
+<div class="col-xs-offset-1 col-xs-10" style="margin-top: 20px;">
+    <?php echo $this->Form->submit('登録する', array(
         'class' => 'btn-block btn btn-primary',
     )); ?>
 </div>

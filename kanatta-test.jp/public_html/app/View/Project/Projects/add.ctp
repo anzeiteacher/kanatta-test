@@ -3,7 +3,16 @@
 <?php echo $this->Html->script('jquery-ui.min', array('inline' => false)) ?>
 <?php echo $this->Html->script('pj_contents', array('inline' => false)) ?>
 
-<h4>プロジェクトの作成</h4>
+<div class="progressbar">
+    <ul>
+        <li class="active">プロジェクト作成</li>
+        <li>支援パターン追加</li>
+        <li>確認</li>
+        <li>完了</li>
+    </ul>
+</div>
+
+<h4>プロジェクト作成</h4>
 
 <p style="text-align:center;">作成したいプロジェクトの概要を入力してください。<br>確認の上、担当から連絡させていただきます。</p>
 
@@ -25,6 +34,7 @@
                             'onchange' => "client_resize($(this), event, 750, 500, 'preview_pic', 'pic');"
                     )); ?>
                     <div id="preview_pic" style="max-width:400px; margin-top:10px; margin:0 auto; "></div>
+                    <div class="error-message" id="error-pic"></div>
                 </div>
                 <div class="form-group">
                     <?php echo $this->Form->input('category_id', array('label' => $setting['cat1_name'].' <span class="label label-danger">必須</span>')); ?>
@@ -95,12 +105,12 @@
                 </div>
             </div>
         </div>
+
         <div class="form-group col-md-8 col-md-offset-2" style="margin-top:20px;">
             <input type="submit"
-                   onclick="save_form_data_redirect($(this), event, '<?php echo $this->Html->url(array('action' => 'add')) ?>', '<?php echo $this->Html->url(array('action' => 'add')) ?>', 1); return false;"
-                   class="btn btn-primary btn-block" value="登録">
+                onclick="save_form_data_redirect($(this), event, '<?php echo $this->Html->url(array('action' => 'add')) ?>', '<?php echo $this->Html->url(array('action' => 'add_return')) ?>', 1); return false;"
+                class="btn btn-primary btn-block" value="次へ">
         </div>
         <?php echo $this->Form->end(); ?>
     </div>
 </div>
-

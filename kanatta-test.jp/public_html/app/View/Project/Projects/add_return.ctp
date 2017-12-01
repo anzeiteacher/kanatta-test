@@ -1,8 +1,20 @@
 <?php echo $this->Html->css('mypage', null, array('inline' => false)) ?>
 
-<h4>支援パターンの追加</h4>
+<div class="progressbar">
+    <ul>
+        <li>プロジェクト作成</li>
+        <li class="active">支援パターン追加</li>
+        <li>確認</li>
+        <li>完了</li>
+    </ul>
+</div>
 
-<p style="text-align:center;">プロジェクトを公開後に支援パターンの編集はできません。追加はできます。</p>
+<h4>支援パターン追加</h4>
+
+<p style="text-align: center;">
+    プロジェクトの支援パターンを追加してください。<br>
+    支援パターンは最大10個まで追加できます。
+</p>
 
 <?php echo $this->Form->create('Project', array(
     'inputDefaults' => array(
@@ -10,15 +22,9 @@
     )
 )); ?>
 
-<div class="max_backing_level_num">
-    <div class="container">
-        <div class="form-group">
-            <?php echo $this->Form->input('Project.max_back_level', array(
-                'id' => 'back_level', 'type' => 'hidden', 'default' => !empty($project['Project']['max_back_level']) ? $project['Project']['max_back_level'] : 0,
-            )); ?>
-        </div>
-    </div>
-</div>
+<?php echo $this->Form->input('Project.max_back_level', array(
+    'id' => 'back_level', 'type' => 'hidden', 'default' => !empty($project['Project']['max_back_level']) ? $project['Project']['max_back_level'] : 0,
+)); ?>
 
 <div class="container">
     <div id="blevel" class="clearfix">
@@ -71,22 +77,22 @@
 
     <div class="form-group">
         <div id="btn-edit-return" class="col-xs-offset-1 col-xs-10" style="margin-top:20px;">
-            <?php echo $this->Form->submit('更新する', array(
+            <?php echo $this->Form->submit('次へ', array(
                 'class' => 'btn-block btn btn-primary',
             )) ?>
         </div>
-
         <div id="btn-add-return" class="col-xs-offset-1 col-xs-10" style="margin-top:20px;">
             <button class="btn-block btn btn-default">新しい支援パターンを追加する</button>
         </div>
+
     </div>
 </div>
 
 <?php $this->start('script') ?>
 <script>
     var clone = '' +
-            '<div class="levels clearfix" index="@">' +
-            '<h4>支援パターン@</h4>' +
+            '<div class="levels clearfix" index="@@">' +
+            '<h4>支援パターン@@</h4>' +
             '<br>' +
             '<div class="col-md-4">' +
             '<div class="form-group">' +
@@ -131,34 +137,38 @@
             '</div></div>';
 
     $(document).ready(function () {
+        // max_back_level = 10
+        var index = parseInt($('div.levels').last().attr('index')) || 0;
+        if (index >= 10) {
+            $('#btn-add-return').css('display', 'none');
+        }
+
         var disabled = <?php echo $disabled ? 'true' : 'false'; ?>;
         if (disabled) {
             $('#btn-edit-return').css('display', 'none');
         }
 
-        // max_back_level = 10
-        var existing = parseInt($('div.levels').last().attr('index')) || 0;
-        if (existing >= 10) {
-            $('#btn-add-return').css('display', 'none');
+        if (index == 0) {
+             var row = clone.replace(/@@/g, index + 1);
+             row = row.replace(/[@]/g, index);
+            $('#blevel').append(row);
         }
 
         $('#btn-add-return').click(function() {
-             var existing = parseInt($('div.levels').last().attr('index')) || 0;
-             if (existing >= 10) {
-                 alert('支援パターンは最大10個までです。');
-                 return false;
-             }
+            var index = parseInt($('div.levels').last().attr('index')) || 0;
+               if (index >= 10) {
+                alert('支援パターンは最大10個までです。');
+                return false;
+            }
 
-             var count    = existing + 1;
-             var row = clone.replace(/@@/g, existing);
-             row = row.replace(/[@]/g, count);
-             $('#blevel').append(row);
+            var row = clone.replace(/@@/g, index + 1);
+            row = row.replace(/[@]/g, index);
+            $('#blevel').append(row);
 
-             // value of max_back_level
-             $('#back_level').val(count);
-
-             $(this).fadeOut();
-             $('#btn-edit-return').fadeIn();
+            // value of max_back_level
+            $('#back_level').val(index + 1);
+            $('#btn-add-return').fadeOut(300);
+            $('#btn-edit-return').fadeIn(300);
         });
     });
 </script>
