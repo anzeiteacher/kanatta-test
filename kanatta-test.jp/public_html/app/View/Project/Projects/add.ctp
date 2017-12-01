@@ -33,7 +33,15 @@
                             'type' => 'file', 'class' => 'client_resize', 'label' => '画像 <span class="label label-danger">必須</span>',
                             'onchange' => "client_resize($(this), event, 750, 500, 'preview_pic', 'pic');"
                     )); ?>
-                    <div id="preview_pic" style="max-width:400px; margin-top:10px; margin:0 auto; "></div>
+
+                    <div id="preview_pic" style="max-width:400px; margin-top:10px; margin:0 auto; ">
+                       <?php if (!empty($this->request->data['Project']['pic'])): ?>
+                           <?php echo $this->Label->image($this->request->data['Project']['pic'], array(
+                                'style' => 'width: 90%;'
+                            )); ?>
+                       <?php endif; ?>
+                    </div>
+
                     <div class="error-message" id="error-pic"></div>
                 </div>
                 <div class="form-group">
