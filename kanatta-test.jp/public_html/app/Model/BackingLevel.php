@@ -27,8 +27,8 @@ class BackingLevel extends AppModel
                 'message' => array('最低支援額は数値を入力してください。'),
             ),
             'range' => array(
-                'rule'       => array('range', 2999, 2900001),
-                'message'    => '最低支援額は3000〜2900000円の間で入力してください。',
+                'rule'       => array('range', 199, 2900001),
+                'message'    => '最低支援額は200〜2900000円の間で入力してください。',
                 'allowEmpty' => true,
             ),
         ),
