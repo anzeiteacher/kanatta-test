@@ -97,11 +97,18 @@
         <?php endforeach; ?>
     </table>
 
-<div class="col-xs-offset-1 col-xs-10" style="margin-top: 20px;">
-    <?php echo $this->Form->submit('登録する', array(
-        'class' => 'btn-block btn btn-primary',
-    )); ?>
-</div>
+    <div class="form-group">
+        <div id="btn-previous" class="col-xs-offset-1 col-xs-5" style="margin-top: 20px;">
+            <button class='btn-block btn btn-white' onclick="location.href='/projects/add_return'; return false;">
+                戻る
+            </button>
+        </div>
+        <div id="btn-edit-return" class="col-xs-5 center-block" style="margin-top: 20px;">
+            <?php echo $this->Form->submit('登録する', array(
+                'class' => 'btn-block btn btn-primary', 'style' => 'border: 1px solid rgb(207, 149, 116);',
+            )) ?>
+        </div>
+    </div>
 
 </div>
 

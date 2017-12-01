@@ -76,9 +76,14 @@
     </div>
 
     <div class="form-group">
-        <div id="btn-edit-return" class="col-xs-offset-1 col-xs-10" style="margin-top:20px;">
+        <div id="btn-previous" class="col-xs-offset-1 col-xs-5" style="margin-top: 20px;">
+            <button class='btn-block btn btn-white' onclick="location.href='/make'; return false;">
+                戻る
+            </button>
+        </div>
+        <div id="btn-edit-return" class="col-xs-5 center-block" style="margin-top: 20px;">
             <?php echo $this->Form->submit('次へ', array(
-                'class' => 'btn-block btn btn-primary',
+                'class' => 'btn-block btn btn-primary', 'style' => 'border: 1px solid rgb(207, 149, 116);',
             )) ?>
         </div>
         <div id="btn-add-return" class="col-xs-offset-1 col-xs-10" style="margin-top:20px;">
@@ -102,7 +107,7 @@
             '<label>最低支援額</label>' +
             '<div class="input-group">' +
             '<?php echo $this->Form->input('BackingLevel.@.invest_amount', array(
-                    'required' => 'required', 'label' => false
+                    'required' => false, 'label' => false
             ));
                     ?>' +
             '<span class="input-group-addon">円</span>' +
@@ -130,7 +135,7 @@
 
             '<div class="col-md-8">' +
             '<?php echo $this->Form->input('BackingLevel.@.return_amount', array(
-                    'type' => 'textarea', 'required' => 'required', 'label' => 'リターン内容', 'rows' => 8
+                    'type' => 'textarea', 'required' => false, 'label' => 'リターン内容', 'rows' => 8
             ));
                     ?>' +
 
