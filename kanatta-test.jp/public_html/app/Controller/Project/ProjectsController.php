@@ -207,40 +207,56 @@ class ProjectsController extends AppController
         $this->set('categories', $this->Project->Category->get_list());
         $this->set('areas', $this->Area->get_list());
         $this->_chk_email();
+        // セッションキー
+        $session_key = hash('sha256', "project_user_{$this->Auth->user('id')}");
 
-        if ($this->request->is('post') || $this->request->is('put')) {
-            $this->autoRender = false;
-            $this->request->data['Project']['user_id'] = $this->Auth->user('id');
-            $this->request->data['Project']['pic'] = null;
-            if (!empty($this->request->params['form']['pic'])) {
-                $this->request->data['Project']['pic'] = $this->request->params['form']['pic'];
+        if (!($this->request->is('post') || $this->request->is('put'))) {
+            // セッションにデータがある場合データをセット
+            if ($this->Session->check($session_key)) {
+                $this->request->data = $this->Session->read($session_key);
             }
+            return;
+        }
 
-            // バリデーション
-            $this->Project->set($this->request->data);
-            if (!$this->Project->validates()) {
-                return json_encode(array(
-                    'status' => 0, 'msg' => '入力内容を確認してください。',
-                    'errors' => $this->Project->validationErrors,
-                ));
+        $this->autoRender = false;
+        $this->request->data['Project']['user_id'] = $this->Auth->user('id');
+        $this->request->data['Project']['pic'] = null;
+
+        if (!empty($this->request->params['form']['pic'])) {
+            // アップロードされた画像
+            $this->request->data['Project']['pic'] = $this->request->params['form']['pic'];
+            $this->Ring->bindUp('Project');
+        } else {
+            // セッションから取得した画像
+            if ($this->Session->check($session_key)) {
+                $session_saved = $this->Session->read($session_key);
             }
-
-            // セッションに保存
-            $session_key = hash('sha256', "project_user_{$this->Auth->user('id')}");
-            $this->Session->write($session_key, $this->request->data);
-
-            if ($this->Session->write($session_key, $this->request->data)) {
-                return json_encode(array(
-                    'status'       => 1,
-                    'msg'          => 'プロジェクトを保存しました。'
-                ));
-            } else {
-                return json_encode(array(
-                    'status' => 0,
-                    'msg'    => 'エラーが発生しました。恐れ入りますが、再度お試しください。'
-                ));
-                $this->log("couldn't write to session_key {$session_key} for user (id=$this->Auth->user('id'))", LOG_DEBUG);
+            if (!empty($session_saved['Project']['pic'])) {
+                $this->request->data['Project']['pic'] = $session_saved['Project']['pic'];
             }
+        }
+
+        // バリデーション
+        $this->Project->set($this->request->data);
+        if (!$this->Project->validates()) {
+            $this->log($this->Project->validationErrors, LOG_DEBUG);
+            return json_encode(array(
+                'status' => 0, 'msg' => '入力内容を確認してください。',
+                'errors' => $this->Project->validationErrors,
+            ));
+        }
+        // セッションに保存
+        if ($this->Session->write($session_key, $this->request->data + $this->Session->read($session_key))) {
+            return json_encode(array(
+                'status'       => 1,
+                'msg'          => 'プロジェクトを保存しました。'
+            ));
+        } else {
+            return json_encode(array(
+                'status' => 0,
+                'msg'    => 'エラーが発生しました。恐れ入りますが、再度お試しください。'
+            ));
+            $this->log("couldn't write to session_key {$session_key} for user (id=$this->Auth->user('id'))", LOG_DEBUG);
         }
     }
 
@@ -258,7 +274,6 @@ class ProjectsController extends AppController
             // セッションから取得
             $project = $this->Session->read($session_key);
         }
-
         if (empty($project)) {
             $this->log("project (id={$id}) is not found.", LOG_DEBUG);
             $this->redirect('/');
@@ -271,37 +286,40 @@ class ProjectsController extends AppController
         }
         // 公開後のプロジェクトは編集不可 追加のみ
         $disabled = !empty($project['Project']['opened']) ? true : false;
-
         $this->set(compact('project', 'disabled'));
 
-        if ($this->request->is('post') || $this->request->is('put')) {
-            $max_level = $this->request->data['Project']['max_back_level'];
-            $project['Project']['max_back_level'] = $max_level;
-            $project['BackingLevel'] = $this->request->data['BackingLevel'];
-
-            if (empty($project['BackingLevel'])) {
-                $this->Session->setFlash('支援パターンを入力してください。');
-                return;
+        if (!($this->request->is('post') || $this->request->is('put'))) {
+            // セッションにデータがある場合データをセット
+            if ($this->Session->check($session_key)) {
+                $this->request->data = $this->Session->read($session_key);
             }
-            // バリデーション
-            $errors = array();
-            foreach ($project['BackingLevel'] as $i => $row) {
-                $this->BackingLevel->set($row);
-                if (!$this->BackingLevel->validates()) {
-                    $errors[$i] = $this->BackingLevel->validationErrors;
-                }
-            }
-            if (!empty($errors)) {
-                $this->BackingLevel->validationErrors = $errors;
-                return;
-            }
-
-            // セッションに保存
-            $this->Session->write($session_key, $project);
-            $this->redirect(array('action' => 'confirm', $id));
-        } else {
-            $this->request->data = $project;
+            return;
         }
+
+        $max_level = $this->request->data['Project']['max_back_level'];
+        $project['Project']['max_back_level'] = $max_level;
+        $project['BackingLevel'] = $this->request->data['BackingLevel'];
+
+        if (empty($project['BackingLevel'])) {
+            $this->Session->setFlash('支援パターンを入力してください。');
+            return;
+        }
+        // バリデーション
+        $errors = array();
+        foreach ($project['BackingLevel'] as $i => $row) {
+            $this->BackingLevel->set($row);
+            if (!$this->BackingLevel->validates()) {
+                $errors[$i] = $this->BackingLevel->validationErrors;
+            }
+        }
+        if (!empty($errors)) {
+            $this->BackingLevel->validationErrors = $errors;
+            return;
+        }
+
+        // セッションに保存
+        $this->Session->write($session_key, $project);
+        $this->redirect(array('action' => 'confirm', $id));
     }
 
     /**
