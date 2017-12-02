@@ -297,7 +297,7 @@ body #wrap{
 .lets-start{
     background-color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     position: relative;
 }
 .lets-start span{
@@ -315,11 +315,13 @@ body #wrap{
 .lets-start span.lets-try{
 	background-color: #dc5d78;
 	color: #fff;
+	padding: 15px;
 }
 .lets-start span.lets-about{
 	background-color: #fff;
 	color: #dc5d78;
     border: 2px solid #dc5d78;
+    padding: 15px;
 }
 .lets-start span.lets-kanako1{
     width: 50px;
@@ -368,7 +370,7 @@ body #wrap{
 	}
 	.lets-start span.lets-kanako1 img{
 		width: 9vw;
-	    margin-top: -64px;
+	    margin-top: -109px;
 	    margin-left: -12px;
         display: table-row;
 	}
@@ -651,4 +653,58 @@ body #wrap{
         width: 200px;
 	}
 
+}
+
+/* 提携企業 */
+.center{
+    text-align: center;
+}
+.partner-company{
+    background: #fff;
+    margin: 30px auto;
+    padding: 40px;
+}
+.partner-company .ptc-area{
+    display: inline-grid;
+    margin: 25px 14px;
+    height: 140px;
+}
+.partner-company .ptc-area .ptc-title{
+    height: 30px;
+}
+.partner-company .ptc-area .ptc1 img{
+    width: 200px;
+}
+.partner-company .ptc-area .ptc2 img{
+    height: 80px;
+}
+.partner-company .ptc-area .ptc3 img{
+    height: 35px;
+}
+.partner-company .ptc-area .ptc-title{
+    height: 20px;
+}
+.partner-company .ptc-area .ptc2 img{
+    height: 70px;
+}
+.ptc-area .ptc-description{
+    max-width: 250px;
+    margin-top: 10px
+}
+.ptc-area .ptc-description p{
+    text-align: left;
+}
+.partner-company.organization .ptc-area .ptc2 img {
+    height: 60px;
+}
+.partner-company.organization .ptc-area .ptc3 img {
+    height: 35px;
+    margin: 13px auto;
+}
+.partner-company.organization .ptc-area .ptc-title{
+    height: 24px;
+}
+.partner-company.organization .ptc-title.company{
+    font-size: 18px;
+    font-weight: bold;
 }

@@ -89,6 +89,45 @@
         <br><br>
     <?php endif; ?>
 
+    <div class="partner-company">
+    <h3>提携企業</h3>
+        <div class="center">
+            <div class="ptc-area">
+            	<div class="ptc-title"><p>世界を観よう</p></div>
+            	<div class="ptc3"><img src="img/top/partner/air.png"></div>
+        	</div>
+        	<div class="ptc-area">
+            	<div class="ptc-title"><p>ドローンで女性が活躍</p></div>
+            	<div class="ptc2"><img src="img/top/partner/drone.png"></div>
+        	</div>
+            <div class="ptc-area">
+            	<div class="ptc-title"><p>輝く女性たちの夢実現のお手伝い</p></div>
+            	<div class="ptc1"><img src="img/top/partner/kanatta.png"></div>
+        	</div>
+            <div class="ptc-area">
+            	<div class="ptc-title"><p>プレスリリース配信・PR情報サイト</p></div>
+            	<div class="ptc1"><img src="img/top/partner/value_press.png"></div>
+        	</div>
+        </div>
+    </div>
+
+    <div class="partner-company organization">
+    <h3>提携団体</h3>
+        <div class="center">
+            <div class="ptc-area">
+            	<div class="ptc-title"><p>世界を観よう</p></div>
+            	<div class="ptc-title company"><p>株式会社AIR</p></div>
+            	<div class="ptc3"><img src="img/top/partner/air.png"></div>
+            	<div class="ptc-description"><p>女性の社会進出の支援を目的に活動しています。</p></div>
+        	</div>
+        	<div class="ptc-area">
+            	<div class="ptc-title"><p>ドローンで女性が活躍</p></div>
+            	<div class="ptc-title company"><p>ドローンジョプラス</p></div>
+            	<div class="ptc2"><img src="img/top/partner/drone.png"></div>
+            	<div class="ptc-description"><p>ドローンを使って女性の雇用創出、社会進出を目指しています。</p></div>
+        	</div>
+        </div>
+    </div>
 </div>
 
 <?php $this->start('script') ?>
