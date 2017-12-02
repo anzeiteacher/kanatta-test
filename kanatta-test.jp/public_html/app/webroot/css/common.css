@@ -747,6 +747,10 @@ form {
     background-color: #fff;
     counter-reset: step;
 }
+.progressbar ul {
+    margin-right: 20px;
+    margin-left: -20px;
+}
 .progressbar li {
     list-style-type: none;
     width: 25%;
@@ -773,7 +777,7 @@ form {
     text-align: center;
     border-radius: 50%;
     background-color: #eee;
-    margin-right: 10px;
+    margin-right: 2px;
 }
 .progressbar li:first-child:after {
     content: none;

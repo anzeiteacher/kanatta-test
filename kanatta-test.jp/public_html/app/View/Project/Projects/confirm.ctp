@@ -18,7 +18,7 @@
 
 <div class="content clearfix">
     <h5>プロジェクト概要</h5>
-    <table class="confirm-project" style="width:100%;">
+    <table class="confirm-project table-condensed" style="width:100%;">
         <tr>
             <th>プロジェクトタイトル</th>
             <td><?php echo $project['Project']['project_name']; ?></td>
@@ -63,7 +63,7 @@
     </table>
 
     <h5>プロジェクト詳細</h5>
-    <table class="confirm-project">
+    <table class="confirm-project table-condensed">
         <?php foreach ($project['ProjectContent'] as $content): ?>
         <tr>
             <td><?php echo $content['txt_content']; ?></td>
@@ -72,10 +72,10 @@
     </table>
 
     <h5>支援パターン</h5>
-    <table class="confirm-project">
+    <table class="confirm-project table-condensed">
         <?php foreach ($project['BackingLevel'] as $i => $return): ?>
         <tr>
-            <th colspan=2 style="background: #ddd;">支援パターン<?php echo $i + 1; ?></th>
+            <th colspan=2 style="background: #f5f5f5;">支援パターン<?php echo $i + 1; ?></th>
         </tr>
         <tr>
             <th>最低支援額</th>

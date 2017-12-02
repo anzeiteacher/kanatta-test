@@ -76,6 +76,10 @@
     </div>
 
     <div class="form-group">
+        <div id="btn-add-return" class="col-xs-offset-1 col-xs-10" style="margin-top:20px;">
+            <button class="btn-block btn btn-default" style="box-shadow: none;">新しい支援パターンを追加する</button>
+        </div>
+
         <div id="btn-previous" class="col-xs-offset-1 col-xs-5" style="margin-top: 20px;">
             <button class='btn-block btn btn-white' onclick="location.href='/make'; return false;">
                 戻る
@@ -85,9 +89,6 @@
             <?php echo $this->Form->submit('次へ', array(
                 'class' => 'btn-block btn btn-primary', 'style' => 'border: 1px solid rgb(207, 149, 116);',
             )) ?>
-        </div>
-        <div id="btn-add-return" class="col-xs-offset-1 col-xs-10" style="margin-top:20px;">
-            <button class="btn-block btn btn-default">新しい支援パターンを追加する</button>
         </div>
 
     </div>
