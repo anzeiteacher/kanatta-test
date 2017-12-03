@@ -23,7 +23,7 @@
             'inputDefaults' => array('class' => 'form-control'),
         )); ?>
         <div class="clearfix">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <?php echo $this->Form->input('project_name', array('label' => 'プロジェクト名 <span class="label label-danger">必須</span>')) ?>
                     <div class="error-message" id="error-project_name"></div>
@@ -70,20 +70,7 @@
                     ※決済パターンが月額課金の場合は必須入力
                     <div class="error-message" id="error-goal_backers"></div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <?php echo $this->Form->input('description', array(
-                        'type' => 'textarea', 'rows' => 5, 'label' => 'プロジェクト概要 <span class="label label-danger">必須</span>'
-                    )); ?>
-                    <div class="error-message" id="error-description"></div>
-                </div>
-                <div class="form-group">
-                    <?php echo $this->Form->input('return', array(
-                            'type' => 'textarea', 'rows' => 5, 'label' => 'リターン概要 <span class="label label-danger">必須</span>'
-                    )) ?>
-                    <div class="error-message" id="error-return"></div>
-                </div>
+
                 <div class="form-group">
                     <?php echo $this->Form->input('contact', array(
                             'type' => 'textarea', 'rows' => 5, 'label' => '連絡先 <span class="label label-danger">必須</span>'
@@ -92,6 +79,7 @@
                 </div>
             </div>
         </div>
+
         <!-- プロジェクト詳細 -->
         <div class="col-md-12">
             <label>プロジェクト詳細</label>
