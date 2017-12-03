@@ -1,5 +1,1 @@
 
-AuthUserFile "/home/kanatta/kanatta-lady.jp/htpasswd/sample/.htpasswd"
-AuthName "Member Site"
-AuthType BASIC
-require valid-user

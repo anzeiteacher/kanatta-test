@@ -91,7 +91,7 @@ class Setting extends AppModel
         }elseif(strpos($file_path, '/facebook_img/')){
             return $this->resize_image($file_path, 750, 393);
         }elseif(strpos($file_path, '/logo/')){
-            return $this->resize_image($file_path, null, 30);
+            return $this->resize_image($file_path, null, 60);
         }elseif(strpos($file_path, '/top_box_img1/')){
             return $this->resize_image($file_path, 600, null);
         }elseif(strpos($file_path, '/top_box_img2/')){
