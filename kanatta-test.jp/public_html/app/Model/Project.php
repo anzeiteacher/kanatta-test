@@ -78,10 +78,6 @@ class Project extends AppModel
                 'rule' => array('range', 14, 81),
                 'message' => '15から80までの数字を入力してください。',
             ),
-        ), 'return' => array(
-            'notblank' => array(
-                'rule' => array('notblank'), 'message' => 'リターン概要を入力してください', 'on' => 'create'
-            )
         ), 'rule' => array(
             'equalTo' => array(
                 'rule' => array(
@@ -91,12 +87,6 @@ class Project extends AppModel
         ), 'contact' => array(
             'notblank' => array(
                 'rule' => array('notblank'), 'message' => '連絡先を入力してください。', 'on' => 'create'
-            )
-        ), 'description' => array(
-            'notempyt' => array(
-                'rule' => array('notblank'),
-                'message' => 'プロジェクト概要を入力してください。',
-                //'on' => 'create'
             )
         ),
     );
