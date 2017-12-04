@@ -58,32 +58,45 @@ class BackedProjectsController extends AppController
     public function set_payment($pj, $bl, $bp)
     {
 
-             $shop_id = 'tshop00030635';//test_Shop
-             $pass = '6re8enmt';//test_pass
-             $ret_url = 'http://kanatta-test.jp/mypage';//test_retURL
-             $cancel_url = 'http://kanatta-test.jp/mypage';//test_CancelURL
-//              $shop_id = '9101679755779';//本番Shop
-//              $pass = 'h3xryw4f';//本番pass
-//              $ret_url = 'https://kanatta-lady.jp/mypage';//本番retURL
-//              $cancel_url = 'https://kanatta-lady.jp/mypage';//本番_CancelURL
+//             $shop_id = 'tshop00030635';//test_Shop
+//             $pass = '6re8enmt';//test_pass
+//             $ret_url = 'http://kanatta-test.jp/mypage';//test_retURL
+//             $cancel_url = 'http://kanatta-test.jp/mypage';//test_CancelURL
+//             $url = 'https://pt01.mul-pay.jp/link/'.$shop_id.'/Multi/Entry';
+             $shop_id = '9101679755779';//本番Shop
+             $pass = 'h3xryw4f';//本番pass
+             $ret_url = 'https://kanatta-lady.jp/mypage';//本番retURL
+             $cancel_url = 'https://kanatta-lady.jp/mypage';//本番_CancelURL
+             $url = 'https://p01.mul-pay.jp/link/'.$shop_id.'/Multi/Entry';
              $user_id = $this->Auth->user('id');
              $pj_id = $bp['pj_id'];
              $order_id = $this->BackedProject->get_order_id($pj_id, $user_id);
              $amount = $this->request->data['BackedProject']['invest_amount'];
              $datetime = date('YmdHis');
-             $url = 'https://pt01.mul-pay.jp/link/'.$shop_id.'/Multi/Entry';
              $url .= '?ShopID='. $shop_id;
              $url .= '&OrderID='. $order_id;
-             $url .= '&Amount='.$amount.'&DateTime=' .$datetime;
+             $url .= '&Amount='.$amount.'&Tax=216&DateTime=' .$datetime;
 
-             $str = $shop_id.'|'.$order_id.'|'.$amount.'||'.$pass.'|'.$datetime;
+             $str = $shop_id.'|'.$order_id.'|'.$amount.'|216|'.$pass.'|'.$datetime;
              //MD5変換
              $url .= '&ShopPassString='.md5($str);
 
              $url .= '&RetURL='.$ret_url;
              $url .= '&CancelURL='.$cancel_url;
-             $url .= '&UseCredit=1&JobCd=AUTH';
-             $url .= '&UseCvs=1&ReceiptsDisp11=1111111111&ReceiptsDisp12=0000-000-111&ReceiptsDisp13=09:00-20:00';
+             $url .= '&UseCredit=1';
+             $pay_pattern = $pj['Project']['pay_pattern'];
+             switch($pay_pattern){
+                 case ALL_OR_NOTHING:
+                     $pay_job_cd = 'AUTH';
+                     break;
+                 case ALL_IN:
+                     $pay_job_cd = 'CAPTURE';
+                     break;
+                 case MONTHLY:
+                     $pay_job_cd = 'CAPTURE';;
+             }
+             $url .= '&JobCd='.$pay_job_cd;
+             $url .= '&UseCvs=1&ReceiptsDisp11=株式会社AIR  contact@kanatta-lady.jp&ReceiptsDisp12=-&ReceiptsDisp13=09:00-20:00';
              $url .= '&UseVirtualaccount=1&VaTradeDays=7';
 
             return $url;
