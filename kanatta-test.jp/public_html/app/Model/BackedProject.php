@@ -173,10 +173,10 @@ class BackedProject extends AppModel
             'conditions' => array(
                 'BackedProject.project_id' => $project_id,
             ),
-            'order' => array('BackedProject.created' => 'ASC'),
+            'order' => array('BackedProject.backing_level_id' => 'ASC'),
             'limit' => $limit,
             'fields' => array(
-                'User.id', 'User.nick_name', 'User.name', 'User.email', 'User.receive_address',
+                'User.id', 'User.nick_name', 'User.name', 'User.email', 'User.receive_address', 'User.receive_address2',
                 'BackedProject.id', 'BackedProject.created', 'BackedProject.invest_amount',
                 'BackedProject.comment', 'BackedProject.manual_flag',
                 'BackedProject.status', 'BackedProject.orderId', 'BackedProject.recurring_id',

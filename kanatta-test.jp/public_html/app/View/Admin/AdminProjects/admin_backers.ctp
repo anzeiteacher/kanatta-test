@@ -108,7 +108,7 @@
                 <?php echo h($b['User']['email']) ?>
             </td>
             <td>
-                <?php echo h($b['User']['receive_address']) ?>
+                <?php echo h($b['User']['receive_address'].$b['User']['receive_address2']) ?>
             </td>
             <td>
                 <?php echo str_replace('level', '支援パターン', h($b['BackingLevel']['name'])) ?>

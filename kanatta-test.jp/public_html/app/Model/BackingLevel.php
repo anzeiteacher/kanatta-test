@@ -11,7 +11,7 @@ class BackingLevel extends AppModel
      * Validation rules
      */
     public $validate = array(
-       'name' => array(
+        'name' => array(
             'notblank' => array(
                 'rule'    => array('notblank'),
                 'message' => array('支援パターン名を入力してください。'),

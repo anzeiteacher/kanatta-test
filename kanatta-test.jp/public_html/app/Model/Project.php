@@ -30,11 +30,10 @@ class Project extends AppModel
                     'message' => array('画像サイズの上限は1MBです。')
                 ),
                 'minFileSize' => array(
-                    'rule'     => array('fileSize', '>', 0),
-                    'message' => array('画像サイズは0B以上必要です。')
+                	'rule'     => array('fileSize', '>', 0),
+                     'message' => array('画像サイズは0B以上必要です。')
                 ),
-
-            ),
+        	),
             'illegalCode' => array(
                 'rule' => array('checkIllegalCode'),
             ),
@@ -46,23 +45,31 @@ class Project extends AppModel
             ),
         ),
         'goal_amount' => array(
+           'notblank' => array(
+                'rule'    => 'validate_goal_amount',
+                'message' => '目標金額を入力してください。',
+            ),
             'naturalNumber' => array(
                 'rule' => array('naturalNumber'),
                 'message' => '目標金額は数値を入力してください。',
                 'allowEmpty' => true,
             ),
             'range' => array(
-                'rule'       => array('range', 10000, 10000000),
+                'rule'       => array('range', 9999, 10000001),
                 'message'    => '目標金額は10000〜10000000円の間で入力してください。',
                 'allowEmpty' => true,
             ),
         ),
         'goal_backers' => array(
+            'notblank' => array(
+                'rule'    => 'validate_goal_backers',
+            	'message' => '目標人数を入力してください。',
+            ),
             'naturalNumber' => array(
                 'rule' => array('naturalNumber'),
                 'message' => '目標人数は数値を入力してください。',
                 'allowEmpty' => true,
-            )
+            ),
         ),
         'collection_term' => array(
             'notblank' => array(
@@ -418,6 +425,20 @@ class Project extends AppModel
         }
         if($limit <= $count) return array();
         $options = array(
+            'joins' => array(
+                array(
+                    'table' => 'categories',
+                    'alias' => 'Category',
+                    'type' => 'inner',
+                    'conditions' => array('Category.id = Project.category_id'),
+                ),
+                array(
+                    'table' => 'users',
+                    'alias' => 'User',
+                    'type' => 'inner',
+                    'conditions' => array('Project.user_id = User.id',),
+                ),
+            ),
             'conditions' => array(
                 'Project.id !=' => $top_pj_ids,
                 'Project.opened' => 1,
@@ -433,7 +454,8 @@ class Project extends AppModel
                 'Project.id', 'Project.project_name', 'Project.category_id', 'Project.goal_amount',
                 'Project.collection_start_date', 'Project.collection_end_date', 'Project.backers',
                 'Project.opened', 'Project.collected_amount', 'Project.pay_pattern',
-                'Project.goal_backers', 'Project.no_goal'
+                'Project.goal_backers', 'Project.no_goal', 'User.id', 'User.nick_name', 'Category.name',
+                'Category.id'
             )
         );
         return $this->find('all', $options);
@@ -908,4 +930,39 @@ class Project extends AppModel
         return false;
     }
 
+    /**
+     * 目標金額チェック
+     * - 決済パターンがAll or Nothing/All Inの場合は必須
+     * @return boolean
+     */
+    public function validate_goal_amount() {
+        assert($this->data[$this->alias]);
+
+        $data = $this->data[$this->alias];
+    	if ($data['pay_pattern'] == MONTHLY)
+            return true;
+
+        if (!empty($data['goal_amount']))
+            return true;
+
+        return false;
+    }
+
+    /**
+     * 目標人数チェック
+     * - 決済パターンが月額課金の場合は必須
+     * @return boolean
+     */
+    public function validate_goal_backers() {
+        assert($this->data[$this->alias]);
+
+    	$data = $this->data[$this->alias];
+    	if ($data['pay_pattern'] != MONTHLY)
+            return true;
+
+        if (!empty($data['goal_backers']))
+            return true;
+
+        return false;
+    }
 }

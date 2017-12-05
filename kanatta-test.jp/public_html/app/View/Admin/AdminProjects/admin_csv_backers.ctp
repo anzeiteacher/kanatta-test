@@ -32,7 +32,7 @@ foreach($backers as $b){
     $this->Csv->addField(h($b['User']['nick_name']));
     $this->Csv->addField(h($b['User']['name']));
     $this->Csv->addField(h($b['User']['email']));
-    $this->Csv->addField(h($b['User']['receive_address']));
+    $this->Csv->addField(h($b['User']['receive_address'].$b['User']['receive_address2']));
     $this->Csv->addField(str_replace('level', '支援パターン', h($b['BackingLevel']['name'])));
     $this->Csv->addField($b['BackingLevel']['return_amount']);
     $this->Csv->addField(h($b['BackedProject']['comment']));

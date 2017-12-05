@@ -28,14 +28,17 @@
     </div>
     <br>
     <?php if(!empty($projects)): ?>
+    <div class="container-fluid">
         <table class="table table-bordered">
             <tr>
                 <th>ID</th>
                 <th>タイトル</th>
                 <th>決済タイプ</th>
                 <th>募集終了</th>
+                <th>締め日</th>
                 <th>目標金額</th>
                 <th>現在金額</th>
+                <th>起案者への支払額</th>
                 <th>支援者</th>
                 <th></th>
             </tr>
@@ -59,12 +62,23 @@
                         <?php endif;?>
                     </td>
                     <td>
+                        <?php if(date('Ymd', strtotime(h($p['collection_end_date']))) < date('Ymd') ):?>
+                        <?php echo date('Y/m/d', strtotime(h($p['closing_date'])))?>
+                        <?php endif;?>
+                    </td>
+                    <td>
                         <?php if($p['pay_pattern'] != MONTHLY && !$p['no_goal']):?>
                         <?php echo '¥'.number_format(h($p['goal_amount'])) ?>
                         <?php endif;?>
                     </td>
                     <td>
                         <?php echo '¥'.number_format(h($p['collected_amount']))?>
+                        <?php if($p['pay_pattern'] == MONTHLY):?>
+                        ／月
+                        <?php endif;?>
+                    </td>
+                    <td>
+                        <?php echo '¥'.number_format(h($p['project_owner_price']))?>
                         <?php if($p['pay_pattern'] == MONTHLY):?>
                         ／月
                         <?php endif;?>
@@ -91,6 +105,7 @@
                 </tr>
             <?php endforeach; ?>
         </table>
+        </div>
         <?php echo $this->element('base/pagination') ?>
     <?php endif; ?>
 </div>
