@@ -170,6 +170,12 @@ class CardComponent extends Component
         $exe = new SaveCard();
         $out = $exe->exec($in);
         list($status, $err_msg) = $this->_err_chk($exe, $out);
+///
+        $this->log($in, 'debug');
+        $this->log($out, 'debug');
+        $this->log($status, 'debug');
+
+//exit;
         if($status == 1) return array(true, null);
         return array(false, $err_msg);
     }
@@ -296,9 +302,17 @@ class CardComponent extends Component
         $in->setChargeDay($tomorrow);
         $in->setRegistType(1); //会員ID指定
         $in->setMemberID($data['user_id']);
+//ファンクラブ対応
+        $in->setCardNo($data['card_no']);
+        $in->setExpire($data['year'].$data['month']);
+//////
         $exe = new RegisterRecurringCredit();
         $out = $exe->exec($in);
         list($status, $err_msg) = $this->_err_chk($exe, $out);
+$this->log($in, 'debug');
+$this->log($out, 'debug');
+$this->log($status, 'debug');
+//exit;
         if($status == 1) return array(true, $out, null);
         return array(false, null, $err_msg);
     }
@@ -376,6 +390,34 @@ class CardComponent extends Component
         $in->setExecTranInput($exec_in);
         return $in;
     }
+
+    /**
+     * ファンクラブ対応
+     * 本番用 - メンバー登録＆カード登録
+     */
+    public function save_member_and_card($user_id, $card_data)
+    {
+        $card = array(
+            'card_no' => $card_data['card_no'],
+            'year' => $card_data['year'],
+            'month' => $card_data['month'],
+        );
+        $result = $this->get_member($user_id);
+        if($result[1]){
+            $result = $this->set_member($user_id);
+            if(!$result[0]) return false;
+            $result = $this->set_card_of_member($user_id, $card, 'new');
+            if(!$result[0]) return false;
+        }else{
+            $result = $this->get_card_of_member($user_id);
+            $mode = 'update';
+            if(!$result[1]) $mode = 'new';
+            $result = $this->set_card_of_member($user_id, $card, $mode);
+            if(!$result[0]) return false;
+        }
+        return true;
+    }
+
 
     /**
      * テスト用 - メンバー登録＆カード登録

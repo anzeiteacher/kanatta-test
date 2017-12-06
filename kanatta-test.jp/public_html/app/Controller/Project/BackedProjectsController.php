@@ -36,14 +36,23 @@ class BackedProjectsController extends AppController
                 }
             }
 //KANATTA-35,36_START
-//            return $this->redirect(array('action' => 'card'));
             $this->_set_backed_info_to_session($project_id, $backing_level_id);
 
             list($pj, $bl, $bp) = $this->_card_init();
-            $url = $this->set_payment($pj, $bl, $bp);
-//KANATTA-35,36_END
+            $pay_pattern = $pj['Project']['pay_pattern'];
+            $url = $this->set_payment($pj, $bl, $bp,$pay_pattern);
 
-            return header('Location:'.$url);
+            switch($pay_pattern){
+                case ALL_OR_NOTHING:
+                    return header('Location:'.$url);
+                    break;
+                case ALL_IN:
+                    return header('Location:'.$url);
+                    break;
+                case MONTHLY:
+                    return $this->redirect(array('action' => 'card'));
+            }
+//KANATTA-35,36_END
 
         }else{
             $this->request->data['User']['receive_address'] = $this->auth_user['User']['receive_address'];
@@ -55,19 +64,20 @@ class BackedProjectsController extends AppController
     /**
      * リンクタイプ式のパラメータ格納
      */
-    public function set_payment($pj, $bl, $bp)
+    public function set_payment($pj, $bl, $bp,$pay_pattern)
     {
-
-//             $shop_id = 'tshop00030635';//test_Shop
-//             $pass = '6re8enmt';//test_pass
-//             $ret_url = 'http://kanatta-test.jp/mypage';//test_retURL
-//             $cancel_url = 'http://kanatta-test.jp/mypage';//test_CancelURL
-//             $url = 'https://pt01.mul-pay.jp/link/'.$shop_id.'/Multi/Entry';
-             $shop_id = '9101679755779';//本番Shop
-             $pass = 'h3xryw4f';//本番pass
-             $ret_url = 'https://kanatta-lady.jp/mypage';//本番retURL
-             $cancel_url = 'https://kanatta-lady.jp/mypage';//本番_CancelURL
-             $url = 'https://p01.mul-pay.jp/link/'.$shop_id.'/Multi/Entry';
+//test//////////////////
+            $shop_id = 'tshop00030635';//test_Shop
+            $pass = '6re8enmt';//test_pass
+            $ret_url = 'http://kanatta-test.jp/mypage';//test_retURL
+            $cancel_url = 'http://kanatta-test.jp/mypage';//test_CancelURL
+            $url = 'https://pt01.mul-pay.jp/link/'.$shop_id.'/Multi/Entry';
+                   // $shop_id = '9101679755779';//本番Shop
+                   // $pass = 'h3xryw4f';//本番pass
+                   // $ret_url = 'https://kanatta-lady.jp/mypage';//本番retURL
+                   // $cancel_url = 'https://kanatta-lady.jp/mypage';//本番_CancelURL
+                   // $url = 'https://p01.mul-pay.jp/link/'.$shop_id.'/Multi/Entry';
+///////////////////
              $user_id = $this->Auth->user('id');
              $pj_id = $bp['pj_id'];
              $order_id = $this->BackedProject->get_order_id($pj_id, $user_id);
@@ -84,7 +94,6 @@ class BackedProjectsController extends AppController
              $url .= '&RetURL='.$ret_url;
              $url .= '&CancelURL='.$cancel_url;
              $url .= '&UseCredit=1';
-             $pay_pattern = $pj['Project']['pay_pattern'];
              switch($pay_pattern){
                  case ALL_OR_NOTHING:
                      $pay_job_cd = 'AUTH';
@@ -93,7 +102,7 @@ class BackedProjectsController extends AppController
                      $pay_job_cd = 'CAPTURE';
                      break;
                  case MONTHLY:
-                     $pay_job_cd = 'CAPTURE';;
+                     $pay_job_cd = 'CAPTURE';
              }
              $url .= '&JobCd='.$pay_job_cd;
              $url .= '&UseCvs=1&ReceiptsDisp11=株式会社AIR  contact@kanatta-lady.jp&ReceiptsDisp12=-&ReceiptsDisp13=09:00-20:00';
@@ -186,8 +195,16 @@ class BackedProjectsController extends AppController
                 //支援パターンの購入数を更新
                 if($this->BackingLevel->put_backing_level_now_count($bl)){
                     $data = $this->request->data;
+//ファンクラブ対応＿カード番号の登録
+                    $card_data['card_no'] = $data['Card']['now_card'];
+                    $card_data['year'] = $data['Card']['year'];
+                    $card_data['month'] = $data['Card']['month'];
+//
                     if(empty($data['Card']['now_card']) || empty($card_no)){
                         $new_card = $data['BackedProject'];
+//ファンクラブ対応＿カード番号の登録
+                        $card_data = $new_card;
+//
                         if(!$this->_validate_card($new_card) ||
                            !$this->_set_member() ||
                            !$this->_set_card($new_card, $card_no))
@@ -195,7 +212,7 @@ class BackedProjectsController extends AppController
                             return $this->Project->rollback();
                         }
                     }
-                    list($status, $out) = $this->_pay($bp['pj_id'], $bp['amount'], $pay_pattern);
+                    list($status, $out) = $this->_pay($bp['pj_id'], $bp['amount'], $pay_pattern, $card_data);
                     if($status){
                         if($backed_project = $this->_save_info_of_pay($bp, $out, $pay_pattern)){
                             $this->_mail_back_complete($backed_project, $pj);
@@ -212,13 +229,18 @@ class BackedProjectsController extends AppController
         }
     }
 
-    private function _pay($pj_id, $amount, $pay_pattern)
+    private function _pay($pj_id, $amount, $pay_pattern, $card_data)
     {
         $user_id = $this->Auth->user('id');
         $data = array(
             'order_id' => $this->BackedProject->get_order_id($pj_id, $user_id),
             'amount' => $amount,
-            'user_id' => $user_id
+            'user_id' => $user_id,
+//ファンクラブ対応
+            'card_no' => $card_data['card_no'],
+            'year' => $card_data['year'],
+            'month' => $card_data['month'],
+//
         );
         switch($pay_pattern){
             case ALL_OR_NOTHING:
@@ -228,6 +250,7 @@ class BackedProjectsController extends AppController
                 $result = $this->Card->pay_for_all_in($data);
                 break;
             case MONTHLY:
+                $this->Card->save_member_and_card($user_id, $card_data);
                 $result = $this->Card->pay_for_monthly($data);
         }
         list($status, $out, $err) = $result;
