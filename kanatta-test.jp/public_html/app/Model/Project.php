@@ -965,4 +965,30 @@ class Project extends AppModel
 
         return false;
     }
+    
+    /**
+     * プロジェクト明細取得
+     */
+    public function get_statement_of_project($project_id) {
+        $options = array(
+            'joins' => array(
+                array(
+                    'table' => 'users',
+                    'alias' => 'User',
+                    'type' => 'inner',
+                    'conditions' => array('Project.user_id = User.id',),
+                ),
+            ),
+            'conditions' => array(
+                'Project.project_id' => $project_id,
+                'Project.opened' => 1,
+                'BackedProject.status not' => STATUS_CANCEL
+            ),
+            'fields' => array(
+                'Project.project_name', 'Project.collected_amount',
+                'Project.opened', 'User.nick_name', 'Project.backwes', 'Project.site_fee', 'Project.project_owner_price'
+            ),
+        );
+        return $this->_switch_return_mode($mode, $options);
+    }
 }

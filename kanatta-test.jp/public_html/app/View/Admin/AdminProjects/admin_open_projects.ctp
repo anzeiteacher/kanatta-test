@@ -105,7 +105,7 @@
                     <?php endif;?>
                 </td>
                 <td>
-                    <a href="<?php echo $this->Html->url('/admin/admin_projects/statement_pdf/'.$p['id'])?>" class="btn btn-danger btn-sm">プロジェクト明細出力</a>
+                    <a href="<?php echo $this->Html->url('/admin/admin_projects/admin_pdf_statement/'.$p['id'])?>" class="btn btn-danger btn-sm">プロジェクト明細出力</a>
                 </td>
             </tr>
             <?php endforeach; ?>

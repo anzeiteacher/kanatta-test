@@ -602,6 +602,21 @@ class AdminProjectsController extends AppController
         $this->set('statuses', Configure::read('STATUSES'));
         $this->set('charge_results', Configure::read('CHARGE_RESULTS'));
     }
+    
+    /**
+     * 成功したプロジェクトの明細をダウンロードする
+     */
+    public function admin_pdf_statement($project_id)
+    {
+        $project = $this->Project->findById($project_id);
+        if(!$project) $this->redict('/');
+        $statement = $this->Project
+        $this->layout = false;
+        $filename = $project['Project']['project_name'].'プロジェクト明細_'.date('Ymd');
+        $th = array('ニックネーム', 'プロジェクト名', '支援者数', '総支援額', '手数料','振込金額');
+        $this->set('statuses', Configure::read('STATUSES'));
+        $this->set('charge_results', Configure::read('CHARGE_RESULTS'));
+    }
 
     /**
      * 月額課金型PJの課金を終了する
