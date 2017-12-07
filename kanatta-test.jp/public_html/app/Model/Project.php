@@ -976,13 +976,12 @@ class Project extends AppModel
                     'table' => 'users',
                     'alias' => 'User',
                     'type' => 'inner',
-                    'conditions' => array('Project.user_id = User.id',),
+                    'conditions' => array('Project.user_id = User.id',)
                 ),
             ),
             'conditions' => array(
                 'Project.project_id' => $project_id,
-                'Project.opened' => 1,
-                'BackedProject.status not' => STATUS_CANCEL
+                'Project.opened' => 1
             ),
             'fields' => array(
                 'Project.project_name', 'Project.collected_amount',

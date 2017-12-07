@@ -610,7 +610,7 @@ class AdminProjectsController extends AppController
     {
         $project = $this->Project->findById($project_id);
         if(!$project) $this->redict('/');
-        $statement = $this->Project
+        $statement = $this->Project->get_statement_of_project($project_id);
         $this->layout = false;
         $filename = $project['Project']['project_name'].'プロジェクト明細_'.date('Ymd');
         $th = array('ニックネーム', 'プロジェクト名', '支援者数', '総支援額', '手数料','振込金額');
