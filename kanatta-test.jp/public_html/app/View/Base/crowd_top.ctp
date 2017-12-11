@@ -35,7 +35,7 @@
     <div class="lets-start">
         <div class="wrap-s">
         	<p class="p1">はじめよう！わたしのプロジェクト</p>
-        	<a href="<?php echo $this->Html->url('/select') ?>"><span class="lets-try s1">やってみる！</span></a><a href="<?php echo $this->Html->url('/about') ?>" class="a-about"><span class="lets-about s1">プロジェクトって？</span></a>
+        	<a href="<?php echo $this->Html->url('/select') ?>"><span class="lets-try s1 btn-pink hvr-bounce-out">やってみる！</span></a><a href="<?php echo $this->Html->url('/about') ?>" class="a-about"><span class="lets-about s1 btn-white hvr-bounce-out">プロジェクトって？</span></a>
         	<span class="lets-kanako1"><?php echo $this->Html->image('common/kanako1.png') ?></span>
     	</div>
     </div>
@@ -56,7 +56,7 @@
             <span class="lets-kanako2"><?php echo $this->Html->image('common/kanako2.png') ?></span>
             <div class="lets-start">
             	<p class="p1">みんなで達成！女性のアイディアをサポート</p>
-            	<a href="<?php echo $this->Html->url('/projects') ?>"><span class="lets-try s1">プロジェクトを探す</span></a><a href="<?php echo $this->Html->url('/about') ?>" class="a-about"><span class="lets-about s1">応援するには？</span></a>
+            	<a href="<?php echo $this->Html->url('/projects') ?>"><span class="lets-try s1 btn-pink hvr-bounce-out">プロジェクトを探す</span></a><a href="<?php echo $this->Html->url('/about') ?>" class="a-about"><span class="lets-about s1 btn-white hvr-bounce-out">応援するには？</span></a>
             </div>
         </div>
 	</div>
@@ -64,6 +64,19 @@
     <?php foreach($pjs_by_cat as $idx => $pjs):?>
         <div class="top_content" name="<?php echo $idx+1 ?>">
                 <h3><span class="el-icon-tag"></span> <?php echo h($pjs['name'])?></h3>
+                <div class="clearfix grid_container">
+                    <?php foreach($pjs['pj'] as $project):?>
+                        <?php echo $this->element('project_box/project_box_for_normal', compact('project')) ?>
+                    <?php endforeach;?>
+                </div>
+        </div>
+    <?php endforeach;?>
+    <?php endif;?>
+
+    <?php if(!empty($pjs_by_fan)):?>
+    <?php foreach($pjs_by_fan as $idx => $pjs):?>
+        <div class="top_content" name="<?php echo $idx+1 ?>">
+                <h3><span class="el-icon-tag"></span>ファンクラブ</h3>
                 <div class="clearfix grid_container">
                     <?php foreach($pjs['pj'] as $project):?>
                         <?php echo $this->element('project_box/project_box_for_normal', compact('project')) ?>
@@ -92,6 +105,7 @@
     <div class="partner-company">
     <h3>提携企業</h3>
         <div class="center">
+        <!--
             <div class="ptc-area">
             	<div class="ptc-title"><p>世界を観よう</p></div>
             	<div class="ptc3"><img src="img/top/partner/air.png"></div>
@@ -104,9 +118,10 @@
             	<div class="ptc-title"><p>輝く女性たちの夢実現のお手伝い</p></div>
             	<div class="ptc1"><img src="img/top/partner/kanatta.png"></div>
         	</div>
+         -->
             <div class="ptc-area">
             	<div class="ptc-title"><p>プレスリリース配信・PR情報サイト</p></div>
-            	<div class="ptc1"><img src="img/top/partner/value_press.png"></div>
+            	<div class="ptc1"><a href="https://www.value-press.com/"><img src="img/top/partner/value_press.png"></a></div>
         	</div>
         </div>
     </div>

@@ -56,11 +56,13 @@
     						<li><a href="<?php echo $this->Html->url('/consult') ?>">Kanattaスタッフに相談する</a></li>
     						<li><a href="<?php echo $this->Html->url('/guideline') ?>">ガイドライン</a></li>
     					</ul>
+   					<!--
     					<p class="tit"><img src="/img/common/jewelry.png">Kanattaの応援団</p>
     					<ul class="txt10">
     						<li><a href="<?php echo $this->Html->url('/ambassador') ?>">アンバサダー</a></li>
     						<li><a href="<?php echo $this->Html->url('/consultant') ?>">コンサルタント</a></li>
     					</ul>
+                    -->
     				</div>
     				<div class="ftr_nav_1">
     					<p class="tit"><img src="/img/common/jewelry.png">Kanattaについて</p>
